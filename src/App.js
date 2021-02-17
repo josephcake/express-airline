@@ -1,20 +1,18 @@
 import './App.css';
-import styled from 'styled-components'
+import styled, {ThemeProvider} from 'styled-components'
+import {Background} from './styled/theme/Background'
+import {Input} from './styled/components/Input'
 
-const Input = styled.input`
-  font-family: sans-serif;
-  font-size: 20px;
-  border:none;
-  border-radius:5px;
-  outline:none;  
-`
+
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Input/>
+    <ThemeProvider theme={Background}>
+      <div className="App">
+        <div>
+          <Input/>
+        </div>
       </div>
-    </div>
+    </ThemeProvider>
   );
 }
 
