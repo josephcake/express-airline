@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const Background = {
+const Theme = {
   light: 'white',
   dark: 'black'
 }
 
-export {Background}
+export {Theme}
