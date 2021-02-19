@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import {NavItem} from './styled/NavItem'
+import { ItemContainer_Auto } from "../styled/containers/Container";
+import { NavItem } from "../styled/components/Component";
+
 
 const Navbar = styled.div`
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   align-items:center;
   width:100%;
   height:50px;
@@ -14,9 +16,14 @@ const Navbar = styled.div`
 const Nav = () =>{
   return (
     <Navbar>
-      <NavItem>Nav-item</NavItem>
-      <NavItem>Nav-item</NavItem>
-      <NavItem>Nav-item</NavItem>
+      <ItemContainer_Auto>
+        <NavItem></NavItem>
+        <NavItem></NavItem>
+      </ItemContainer_Auto>
+      <ItemContainer_Auto>
+        <NavItem></NavItem>
+        <NavItem></NavItem>
+      </ItemContainer_Auto>
     </Navbar>
   )
 }

@@ -7,7 +7,7 @@ const OuterDiv = styled.div`
   justify-content:center;
   align-items:center;
   border: solid orange 1px;
-  background-color:${props=>(props.theme.light?props.theme.dark:props.theme.dark)};
+  background-color:${props=>(props.theme.light?props.theme.light:props.theme.dark)};
 `
 
 export {OuterDiv}
