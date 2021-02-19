@@ -17,6 +17,15 @@ const ItemContainer_Column = styled.div`
   align-items: center;  
 `;
 
+const PageContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 
-export {ItemContainer_Row, ItemContainer_Column}
+
+export {ItemContainer_Row, ItemContainer_Column, PageContainer}

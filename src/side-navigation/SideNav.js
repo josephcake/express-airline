@@ -9,7 +9,7 @@ const Nav = styled.div`
   left:0;
   height:100%;
   width:auto;
-  padding:0 5px;
+  padding:0px 5px;
   /* background:gray; */
   border-right:solid 1px black;
   display:flex;
@@ -17,9 +17,27 @@ const Nav = styled.div`
   justify-content:space-between;
   align-items:center;
 `
-const itemsArray = [0,1,2,3,4,5]
+const ItemImage = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const ItemText = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-size:25px;
+`;
+
+const itemsArray = ['ph',1,2,3,4,5]
 const items = itemsArray.map(i=>{
-  return <NavItem><h1>image</h1><h3>{i}</h3></NavItem>  
+  return <NavItem><ItemImage>image</ItemImage><ItemText>{i}</ItemText></NavItem>  
 })
 const SideNav = () => {
   return (
