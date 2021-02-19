@@ -8,7 +8,8 @@ const Nav = styled.div`
   top:0;
   left:0;
   height:100%;
-  width:100px;
+  width:auto;
+  padding:0 5px;
   /* background:gray; */
   border-right:solid 1px black;
   display:flex;
@@ -16,16 +17,15 @@ const Nav = styled.div`
   justify-content:space-between;
   align-items:center;
 `
+const itemsArray = [0,1,2,3,4,5]
+const items = itemsArray.map(i=>{
+  return <NavItem><h1>image</h1><h3>{i}</h3></NavItem>  
+})
 const SideNav = () => {
   return (
     <Nav>
       <ItemContainer_Column>
-        <NavItem>0</NavItem>
-        <NavItem>0</NavItem>
-        <NavItem>0</NavItem>
-        <NavItem>0</NavItem>
-        <NavItem>0</NavItem>
-        <NavItem>0</NavItem>
+        {items}
       </ItemContainer_Column>
       <ItemContainer_Column>
         <NavItem>0</NavItem>        

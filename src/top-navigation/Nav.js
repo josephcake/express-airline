@@ -9,13 +9,14 @@ const Navbar = styled.div`
   justify-content:space-between;
   align-items:center;
   width:100%;
-  height:50px;
+  height:auto;
   padding:5px;
   position:fixed;
   top:0;
   left:0;
   z-index:999;
   border-bottom:solid 1px black;
+  background:white;
   /* background-color:black; */
 `
 

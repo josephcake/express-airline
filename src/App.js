@@ -5,7 +5,6 @@ import SideNav from './side-navigation/SideNav'
 
 import {Theme} from './styled/theme/Theme'
 import {Input} from './styled/components/Input'
-import {OuterDiv} from './styled/containers/OuterDiv'
 
 
 function App() {
