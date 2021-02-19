@@ -4,7 +4,7 @@ const NavItem = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 100%;
   width: 100%;
   padding: 10px;
   margin: 10px;
