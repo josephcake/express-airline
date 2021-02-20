@@ -15,7 +15,7 @@ const Navbar = styled.div`
   top:0;
   left:0;
   z-index:999;
-  border-bottom:solid 1px black;
+  /* border-bottom:solid 1px black; */
   background:white;
   /* background-color:black; */
 `

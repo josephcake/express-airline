@@ -4,7 +4,7 @@ const ItemContainer_Row = styled.div`
   height: auto;
   width: auto;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;  
 `;
 
@@ -13,7 +13,7 @@ const ItemContainer_Column = styled.div`
   width: auto;
   display: flex;
   flex-direction:column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;  
 `;
 
@@ -22,10 +22,18 @@ const PageContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 `;
 
+const Container_50 = styled.div`
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+`;
 const Container_80 = styled.div`
   height: 100%;
   width: 80%;
@@ -36,4 +44,4 @@ const Container_80 = styled.div`
 `;
 
 
-export {ItemContainer_Row, ItemContainer_Column, PageContainer, Container_80}
+export {ItemContainer_Row, ItemContainer_Column, PageContainer, Container_50, Container_80}

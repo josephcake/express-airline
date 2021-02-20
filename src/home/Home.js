@@ -1,19 +1,28 @@
 import React from 'react'
+import styled from 'styled-components'
+import FlightController from './FlightController'
 import hero from '../media/flights_3.svg';
+import { PageContainer, Container_50 } from '../styled/containers/Container'
 
-import { PageContainer, Container_80 } from '../styled/containers/Container'
 
+const HeroText = styled.h1`
+  font-size:50px;
+  font-weight:300;
+`
 
 const Home = () =>{
   return (
     <PageContainer>
-      <Container_80>
+      
         <img srcSet={hero} />
-        <h1>FLIGHT</h1>
-        <h1>FLIGHT CONTROLLER</h1>
+        <Container_50>
+
+        <HeroText>Flights</HeroText>
+        <FlightController/>
         <h1>ADVISORY</h1>
         <h1>SUGGESTIONS</h1>
-      </Container_80>
+        </Container_50>
+      
     </PageContainer>
   );
 }

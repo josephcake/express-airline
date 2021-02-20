@@ -3,5 +3,7 @@ html,body{
   padding:0;
   border: none;
   box-sizing: border-box;
+  font-family: 'DM Mono', monospace;
+  /* font-family: 'Noto Sans', sans-serif; */
 }
 

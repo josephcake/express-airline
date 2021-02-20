@@ -11,7 +11,7 @@ const Nav = styled.div`
   width:auto;
   padding:0px 5px;
   /* background:gray; */
-  border-right:solid 1px black;
+  /* border-right:solid 1px black; */
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -43,7 +43,7 @@ const SideNavSpacer = styled.div`
   width: 90%;
   padding: 3px;
   margin: 3px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
 `;
 
