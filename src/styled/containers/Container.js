@@ -26,6 +26,14 @@ const PageContainer = styled.div`
   align-items: center;
 `;
 
+const Container_80 = styled.div`
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+`;
 
 
-export {ItemContainer_Row, ItemContainer_Column, PageContainer}
+export {ItemContainer_Row, ItemContainer_Column, PageContainer, Container_80}

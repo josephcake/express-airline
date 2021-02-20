@@ -34,6 +34,18 @@ const ItemText = styled.div`
   text-align:center;
   font-size:25px;
 `;
+const SideNavSpacer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 90%;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+`;
 
 const itemsArray = ['ph',1,2,3,4,5]
 const items = itemsArray.map(i=>{
@@ -43,6 +55,7 @@ const SideNav = () => {
   return (
     <Nav>
       <ItemContainer_Column>
+        <SideNavSpacer/>
         {items}
       </ItemContainer_Column>
       <ItemContainer_Column>
