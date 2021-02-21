@@ -16,6 +16,9 @@ const Nav = styled.div`
   flex-direction:column;
   justify-content:space-between;
   align-items:center;
+  @media screen and (max-width: 1000px){
+    display:none;
+  }
 `
 const ItemImage = styled.div`
   height: 100%;

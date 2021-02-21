@@ -1,20 +1,24 @@
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 
-const ItemContainer_Row = styled.div`
+const flexAuto = css`
+  display: flex;
   height: auto;
   width: auto;
-  display: flex;
+`;
+
+const ItemContainer_Row = styled.div`
+  ${flexAuto}  
   /* justify-content: center; */
+  /* padding:10px; */
   align-items: center;  
 `;
 
 const ItemContainer_Column = styled.div`
-  height: auto;
-  width: auto;
-  display: flex;
+  ${flexAuto}
   flex-direction:column;
+  /* padding: 10px; */
   /* justify-content: center; */
-  align-items: center;  
+  align-items: center;
 `;
 
 const PageContainer = styled.div`
@@ -33,6 +37,10 @@ const Container_50 = styled.div`
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  @media screen and (max-width: 1000px) {
+    width:100%;
+    margin:20px;
+  }
 `;
 const Container_80 = styled.div`
   height: 100%;

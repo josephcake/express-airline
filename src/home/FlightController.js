@@ -8,18 +8,26 @@ const FCDiv = styled.div`
   /* height: 100%; */
   width: 100%;
   border: solid 1px black;
+  @media screen and (max-width: 1000px) {
+    /* width:auto; */
+    /* padding:20px; */
+  }
 `;
 const DestinationContainer = styled.div`
-  display:flex;
-  width:100%;
-  justify-content:space-evenly;
-  align-items:center;
-  border:solid 1px black;
-  & h3{
-    width:100%;
-    border:solid 1px black;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px black;
+  & h3 {
+    width: 100%;
+    border: solid 1px black;
   }
-`
+  @media screen and (max-width: 1000px) {
+    /* width:auto; */
+    padding: 0 10px;
+  }
+`;
 const FlightController = () =>{
   return (
     <FCDiv>
