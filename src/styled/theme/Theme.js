@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Theme = {
-  light: 'white',
-  dark: 'black'
+  light_bg: 'white',
+  dark_bg: 'black'
 }
 
 export {Theme}

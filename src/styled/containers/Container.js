@@ -21,14 +21,14 @@ const ItemContainer_Column = styled.div`
   align-items: center;
 `;
 
-const PageContainer = styled.div`
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-`;
+// const PageContainer = styled.div`
+//   /* height: 100%; */
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   /* justify-content: start; */
+//   align-items: center;
+// `;
 
 const Container_50 = styled.div`
   height: 100%;
@@ -52,4 +52,4 @@ const Container_80 = styled.div`
 `;
 
 
-export {ItemContainer_Row, ItemContainer_Column, PageContainer, Container_50, Container_80}
+export {ItemContainer_Row, ItemContainer_Column, Container_50, Container_80}

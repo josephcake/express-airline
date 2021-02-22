@@ -4,11 +4,11 @@ import { ItemContainer_Row, ItemContainer_Column } from "../styled/containers/Co
 import { NavItem } from "../styled/components/Component";
 
 const Nav = styled.div`
-  position:fixed;
+  /* position:fixed;
   top:0;
-  left:0;
+  left:0; */
   height:100%;
-  width:auto;
+  /* width:auto; */
   padding:0px 5px;
   /* background:gray; */
   /* border-right:solid 1px black; */
@@ -38,28 +38,25 @@ const ItemText = styled.div`
   font-size:25px;
 `;
 const SideNavSpacer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  width: 90%;
-  padding: 3px;
-  margin: 3px;
-  /* border: 1px solid black; */
-  border-radius: 10px;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  top:70px;
+  left:0;  
+  /* visibility: hidden; */
 `;
 
 const itemsArray = ['ph',1,2,3,4,5]
 const items = itemsArray.map(i=>{
-  return <NavItem><ItemImage>image</ItemImage><ItemText>{i}</ItemText></NavItem>  
+  return <NavItem key={i}><ItemImage>image</ItemImage><ItemText>{i}</ItemText></NavItem>  
 })
 const SideNav = () => {
   return (
     <Nav>
       <ItemContainer_Column>
-        <SideNavSpacer/>
-        {items}
+        <SideNavSpacer>
+          {items}
+        </SideNavSpacer>
       </ItemContainer_Column>
       <ItemContainer_Column>
         <NavItem>0</NavItem>        

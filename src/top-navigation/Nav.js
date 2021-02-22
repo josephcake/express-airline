@@ -5,20 +5,24 @@ import { NavItem } from "../styled/components/Component";
 
 
 const Navbar = styled.div`
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  width:100%;
-  height:60px;
-  padding:5px;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
   /* border-bottom:solid 1px black; */
-  background:white;
+  /* background: white; */
   /* background-color:black; */
-`
+  @media screen and (max-width: 1000px) {
+    /* height:100px; */
+    display:none;
+  }
+`;
 
 const Nav = () =>{
   return (
