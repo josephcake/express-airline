@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ItemContainer_Row } from "../styled/containers/Container";
-import { NavItem } from "../styled/components/Component";
+// import { NavItem } from "../styled/components/Component";
 
 
 const Navbar = styled.div`
@@ -24,6 +24,26 @@ const Navbar = styled.div`
   }
 `;
 
+const NavItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  /* border: 1px solid black; */
+  /* border-radius: 10px; */
+`;
+
+const Profile = styled.div`
+  height:40px;
+  width:40px;
+  border:solid 1px black;
+  border-radius:50%;
+`
+
 const Nav = () =>{
   return (
     <Navbar>
@@ -33,7 +53,7 @@ const Nav = () =>{
       </ItemContainer_Row>
       <ItemContainer_Row>
         <NavItem>extra</NavItem>
-        <NavItem>profile</NavItem>
+        <NavItem><Profile/></NavItem>
       </ItemContainer_Row>
     </Navbar>
   )

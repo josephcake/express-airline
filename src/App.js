@@ -35,7 +35,7 @@ function App() {
         <Nav/>
         <Container_Row>
           <SideNav/>
-          <Home theme={Theme}/>
+          <Home/>
         </Container_Row>        
       </AppDiv>
     </ThemeProvider>
