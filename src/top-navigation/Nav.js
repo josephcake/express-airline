@@ -9,7 +9,7 @@ const Navbar = styled.div`
   align-items: center;
   width: 100%;
   height: 60px;
-  padding: 5px;
+  /* padding: 5px; */
   position: sticky;
   top: 0;
   background:white;
