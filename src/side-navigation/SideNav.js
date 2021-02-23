@@ -4,10 +4,11 @@ import { ItemContainer_Row, ItemContainer_Column } from "../styled/containers/Co
 import { NavItem } from "../styled/components/Component";
 
 const Nav = styled.div`
-  /* position:fixed;
+  position:fixed;
   top:0;
-  left:0; */
-  height:100%;
+  left:0;
+  bottom:0;
+  /* height:100%; */
   /* width:auto; */
   padding:0px 5px;
   /* background:gray; */

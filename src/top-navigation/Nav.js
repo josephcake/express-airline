@@ -20,6 +20,7 @@ const Navbar = styled.div`
   /* background: white; */
   /* background-color:black; */
   @media screen and (max-width: 1000px) {
+    font-size:25px;
     /* height:100px; */
     /* display:none; */
   }
@@ -39,11 +40,15 @@ const NavItem = styled.div`
 `;
 
 const Profile = styled.div`
-  height:40px;
-  width:40px;
-  border:solid 1px black;
-  border-radius:50%;
-`
+  height: 40px;
+  width: 40px;
+  border: solid 1px black;
+  border-radius: 50%;
+  @media screen and (max-width: 1000px) {
+    height: 50px;
+    width: 50px;
+  }
+`;
 
 const Nav = () =>{
   return (
