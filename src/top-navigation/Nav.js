@@ -1,8 +1,7 @@
-import React from 'react';
+import React,{memo} from 'react';
 import styled from 'styled-components';
 import { ItemContainer_Row } from "../styled/containers/Container";
 // import { NavItem } from "../styled/components/Component";
-
 
 const Navbar = styled.div`
   display: flex;
@@ -50,9 +49,10 @@ const Profile = styled.div`
   }
 `;
 
-const Nav = () =>{
+const Nav = ({scrollVal}) =>{  
+
   return (
-    <Navbar>
+    <Navbar className={`${scrollVal>0?'bbs':'_out'}`}>
       <ItemContainer_Row>
         <NavItem>toggle</NavItem>
         <NavItem>logo</NavItem>
@@ -64,5 +64,12 @@ const Nav = () =>{
     </Navbar>
   )
 }
+const areEqual = (prev, next)=>{
+  if(prev > 0 && next > 0){
+    return true
+  }else{    
+    return false
+  }
+}
 
-export default Nav
+export default memo(Nav,areEqual)

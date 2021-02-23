@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {memo} from 'react'
 import styled from 'styled-components'
 import FlightController from './FlightController'
 import hero from '../media/express-ico.svg';
@@ -92,7 +92,7 @@ const Map = styled.div`
     margin: 5px;
   }
 `;
-
+console.log('home')
 const Home = () =>{
   return (
     <HomeContainer>
@@ -123,9 +123,8 @@ const Home = () =>{
           </ExploreMap>
         </ExploreContainer>
       </Container_50>
-
     </HomeContainer>
   );
 }
 
-export default Home
+export default memo(Home)

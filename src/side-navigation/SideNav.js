@@ -42,7 +42,7 @@ const SideNavSpacer = styled.div`
   position:relative;
   display:flex;
   flex-direction:column;
-  top:70px;
+  top:100px;
   left:0;  
   /* visibility: hidden; */
 `;
