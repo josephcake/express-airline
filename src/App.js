@@ -10,10 +10,10 @@ const AppDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
   background: ${(props) =>
     props.theme.dark_bg ? props.theme.light_bg : props.theme.dark_bg};
   color: ${(props) =>
@@ -22,9 +22,9 @@ const AppDiv = styled.div`
 const Container_Row = styled.div`
   display:flex;
   justify-content:space-between;
-  position:absolute;
-  bottom:0;
-  height:calc(100vh - 70px);
+  /* position:absolute;
+  bottom:0; */
+  height:100%;
   width:100%;
 `
 

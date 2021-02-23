@@ -11,16 +11,17 @@ const Navbar = styled.div`
   width: 100%;
   height: 60px;
   padding: 5px;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
+  background:white;
+  /* left: 0; */
   z-index: 999;
   /* border-bottom:solid 1px black; */
   /* background: white; */
   /* background-color:black; */
   @media screen and (max-width: 1000px) {
     /* height:100px; */
-    display:none;
+    /* display:none; */
   }
 `;
 

@@ -21,6 +21,77 @@ const HeroText = styled.h1`
     font-size:60px;
   }
 `;
+const Suggestions = styled.div`
+  display: flex;
+  /* flex-direction:column; */
+  width: 100%;
+  height: 135px;
+  /* padding:5px; */
+  background: gray;
+  border-radius: 15px;
+  @media screen and (max-width: 1000px) {
+    height: 270px;
+    /* margin:5px; */
+  }
+`;
+
+const SuggestionContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 5px 0 0;  
+  & ${Suggestions}:nth-child(1) {
+    margin: 0 5px 5px 0;
+  }
+  & ${Suggestions}:nth-child(2) {
+    margin: 5px 5px 5px 0;
+  }
+  & ${Suggestions}:nth-child(3) {
+    margin: 5px 5px 0 0;
+  }
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 20px;
+    
+  }
+`;
+
+const ExploreContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0;
+  @media screen and (max-width: 1000px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0;
+  }
+`;
+const ExploreMap = styled.div`
+  display: flex;
+  width: 50%;
+  height: 100%;
+  @media screen and (max-width: 1000px) {
+    /* flex: 1 0 400px; */
+    height: 600px;
+    width: 100%;
+  }
+`;
+
+const Map = styled.div`
+  width: 100%;
+  height: 100%;
+  background: skyblue;
+  border-radius: 15px;
+  @media screen and (max-width: 1000px) {    
+    flex: 1 0 400px;
+    margin: 5px;
+  }
+`;
 
 const Home = () =>{
   return (
@@ -41,7 +112,18 @@ const Home = () =>{
         <FlightController />
         {/* <h1>ADVISORY</h1> */}
         {/* <h1>SUGGESTIONS</h1> */}
+        <ExploreContainer>
+          <SuggestionContainer>
+            <Suggestions></Suggestions>
+            <Suggestions></Suggestions>
+            <Suggestions></Suggestions>
+          </SuggestionContainer>
+          <ExploreMap>
+            <Map></Map>
+          </ExploreMap>
+        </ExploreContainer>
       </Container_50>
+
     </HomeContainer>
   );
 }
