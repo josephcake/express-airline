@@ -15,10 +15,10 @@ const HomeContainer = styled.div`
   align-items:center;
 `
 const HeroText = styled.h1`
-  font-size: 50px;
+  font-size: clamp(2.5rem, 3vw, 5rem);
+  /* font-size: 40px; */
   font-weight: 300;
   @media screen and (max-width: 1000px) {
-    font-size:60px;
   }
 `;
 const Suggestions = styled.div`

@@ -36,7 +36,7 @@ const ItemText = styled.div`
   justify-content: center;
   align-items: center;
   text-align:center;
-  font-size:25px;
+  font-size:2rem;
 `;
 const SideNavSpacer = styled.div`
   position:relative;

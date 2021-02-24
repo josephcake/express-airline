@@ -12,17 +12,11 @@ const Navbar = styled.div`
   /* padding: 5px; */
   position: sticky;
   top: 0;
-  background:white;
-  /* left: 0; */
+  background: white;
   z-index: 999;
-  /* border-bottom:solid 1px black; */
-  /* background: white; */
-  /* background-color:black; */
-  @media screen and (max-width: 1000px) {
-    font-size:25px;
-    /* height:100px; */
-    /* display:none; */
-  }
+  font-size: clamp(1.5rem, 2vw, 2.5rem);  
+  /* @media screen and (max-width: 1000px) {    
+  } */
 `;
 
 const NavItem = styled.div`
@@ -32,8 +26,8 @@ const NavItem = styled.div`
   align-items: center;
   height: 90%;
   width: 90%;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px clamp(0px, 1vw, 10px);
+  margin: 10px clamp(0px, 1vw, 10px);
   /* border: 1px solid black; */
   /* border-radius: 10px; */
 `;
