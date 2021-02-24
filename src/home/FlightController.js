@@ -27,11 +27,11 @@ const DestinationContainer = styled.div`
   & h3 {
     width: 100%;
     border: solid 1px black;
+    font-size: clamp(2rem, 2vw, 3rem);
     @media screen and (max-width: 1000px) {
       display:flex;
       align-items:center;
       height:50px;
-      font-size:30px;
     }
   }
   @media screen and (max-width: 1000px) {

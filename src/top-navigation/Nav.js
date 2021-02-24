@@ -14,9 +14,11 @@ const Navbar = styled.div`
   top: 0;
   background: white;
   z-index: 999;
-  font-size: clamp(1.5rem, 2vw, 2.5rem);  
-  /* @media screen and (max-width: 1000px) {    
-  } */
+  font-size: clamp(2rem, 2vw, 3rem);
+  @media screen and (max-width: 600px) {
+    /* font-size: 20px; */
+    height:70px;
+  }
 `;
 
 const NavItem = styled.div`
