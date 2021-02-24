@@ -30,8 +30,9 @@ const Suggestions = styled.div`
   background: gray;
   border-radius: 15px;
   @media screen and (max-width: 1000px) {
-    height: 270px;
-    /* margin:5px; */
+    height: clamp(200px, 30vw, 300px);
+    width: clamp(300px, 90vw, 1000px);
+    margin: auto;
   }
 `;
 
@@ -76,9 +77,7 @@ const ExploreMap = styled.div`
   width: 50%;
   height: 100%;
   @media screen and (max-width: 1000px) {
-    /* flex: 1 0 400px; */
-    height: 600px;
-    width: 100%;
+    width:100%;
   }
 `;
 
@@ -87,9 +86,10 @@ const Map = styled.div`
   height: 100%;
   background: skyblue;
   border-radius: 15px;
-  @media screen and (max-width: 1000px) {    
-    flex: 1 0 400px;
-    margin: 5px;
+  @media screen and (max-width: 1000px) {
+    height: clamp(300px, 90vw, 600px);
+    width: clamp(300px, 90vw, 1000px);
+    margin:auto;
   }
 `;
 console.log('home')

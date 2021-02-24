@@ -8,11 +8,13 @@ const FCDiv = styled.div`
   /* height: 100%; */
   width: 100%;
   border: solid 1px black;
+  margin: 25px 0;
+
   @media screen and (max-width: 1000px) {
     /* width:auto; */
     /* padding:20px; */
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
   }
 `;
 const DestinationContainer = styled.div`
@@ -21,6 +23,7 @@ const DestinationContainer = styled.div`
   justify-content: space-evenly;
   align-items: center;
   /* border: solid 1px black; */
+  margin: 25px 0;
   & h3 {
     width: 100%;
     border: solid 1px black;
