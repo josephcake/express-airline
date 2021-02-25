@@ -7,7 +7,7 @@ const FCDiv = styled.div`
   flex-direction: column;
   /* height: 100%; */
   width: 100%;
-  border: solid 1px black;
+  /* border: solid 1px black; */
   margin: 25px 0;
 
   @media screen and (max-width: 1000px) {
@@ -37,7 +37,7 @@ const DestinationContainer = styled.div`
   @media screen and (max-width: 1000px) {
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    width: 90%;
   }
 `;
 

@@ -47,13 +47,15 @@ const SideNavSpacer = styled.div`
   /* visibility: hidden; */
 `;
 
+
+
 const itemsArray = ['ph',1,2,3,4,5]
 const items = itemsArray.map(i=>{
   return <NavItem key={i}><ItemImage>image</ItemImage><ItemText>{i}</ItemText></NavItem>  
 })
 const SideNav = () => {
   return (
-    <Nav>
+    <Nav>    
       <ItemContainer_Column>
         <SideNavSpacer>
           {items}
@@ -62,7 +64,6 @@ const SideNav = () => {
       <ItemContainer_Column>
         <NavItem>0</NavItem>        
       </ItemContainer_Column>
-      
     </Nav>
   );
 }

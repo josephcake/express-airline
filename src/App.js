@@ -30,25 +30,79 @@ const Container = styled.div`
   width:100%;
 `
 
+const MobileSideNav = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  /* background: rgba(0,0,0,0.2); */
+  visibility: hidden;
+  @media screen and (max-width: 1000px) {
+    visibility: visible;
+  }
+`;
+
 
 function App() {
-useEffect(() => {}, []);
-const [scrollVal, setScrollVal] = useState(0);
-const handleContainerScroll = () => {
-  // console.log(window.scrollY);
-  setScrollVal(window.scrollY);
-};
+  useEffect(() => {}, []);
+  const [scrollVal, setScrollVal] = useState(0);
+  const [touchStartVal, setTouchStartVal] = useState({x:null, y:null});
+  const [touchEndVal, setTouchEndVal] = useState({x:null, y:null});
+  const [displaySlider, setDisplaySlider] = useState(false)
+  const handleContainerScroll = () => {
+    // console.log(window.scrollY);
+    setScrollVal(window.scrollY);
+  };
+
+  const debounce = function(fn, arg,delay){    
+    let timeoutId;
+    
+    return function(){
+      if(timeoutId){
+        clearTimeout(timeoutId);
+      }
+      timeoutId = setTimeout(fn(arg),delay);
+    }
+  }
+
+  const handleTouchMove = (e) => {
+    let x = e.touches[0].clientX;
+    let y = e.touches[0].clientY;
+
+    setTouchEndVal(
+      (prevState) => ({
+        ...prevState,
+        x,
+        y,
+    }));
+  };
+  
+  const handleTouchStart = (e) =>{
+    let x = e.touches[0].clientX;
+    let y = e.touches[0].clientY;
+    // console.log(x,y)
+    setTouchStartVal(prevState => ({
+      ...prevState,
+      x,y
+    }));
+    
+  }
 
   return (
     <ThemeProvider theme={Theme}>
-        <AppDiv onWheel={handleContainerScroll}>
-        <Nav scrollVal={scrollVal}/>
-          <Container>
-            <SideNav/>
-            <Home/>
-          </Container>
-
-        </AppDiv>
+      <AppDiv onWheel={handleContainerScroll}>
+        <Nav scrollVal={scrollVal} />
+        <MobileSideNav
+          onTouchStart={handleTouchStart}
+          onTouchMove={(e)=>debounce(handleTouchMove, e, 300)}
+          className={displaySlider?'red':'blue'}
+        />
+        <Container>
+          <SideNav />
+          <Home />
+        </Container>
+      </AppDiv>
     </ThemeProvider>
   );
 }
