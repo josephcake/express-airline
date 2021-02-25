@@ -69,13 +69,19 @@ function App() {
   const handleTouchMove = (e) => {
     let x = e.touches[0].clientX;
     let y = e.touches[0].clientY;
-
-    setTouchEndVal(
-      (prevState) => ({
-        ...prevState,
-        x,
-        y,
-    }));
+    if(x>touchStartVal.x){
+      setDisplaySlider(!displaySlider)
+    }
+    else{
+      console.log(x)
+      console.log(touchStartVal.x)
+    }
+    // setTouchEndVal(
+    //   (prevState) => ({
+    //     ...prevState,
+    //     x,
+    //     y,
+    // }));
   };
   
   const handleTouchStart = (e) =>{
