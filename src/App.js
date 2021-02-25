@@ -55,33 +55,13 @@ function App() {
     setScrollVal(window.scrollY);
   };
 
-  const debounce = function(fn, arg,delay){    
-    let timeoutId;
-    
-    return function(){
-      if(timeoutId){
-        clearTimeout(timeoutId);
-      }
-      timeoutId = setTimeout(fn(arg),delay);
-    }
-  }
-
   const handleTouchMove = (e) => {
     let x = e.touches[0].clientX;
-    let y = e.touches[0].clientY;
-    if(x>touchStartVal.x){
-      setDisplaySlider(!displaySlider)
-    }
-    else{
-      console.log(x)
-      console.log(touchStartVal.x)
-    }
-    // setTouchEndVal(
-    //   (prevState) => ({
-    //     ...prevState,
-    //     x,
-    //     y,
-    // }));
+    let y = e.touches[0].clientY;      
+    setTouchEndVal(prevState => ({
+        ...prevState,
+        x,y
+    }));
   };
   
   const handleTouchStart = (e) =>{
@@ -91,17 +71,28 @@ function App() {
     setTouchStartVal(prevState => ({
       ...prevState,
       x,y
-    }));
-    
+    }));    
   }
 
+
+  const handleTouchEnd = () =>{
+    console.log(touchStartVal)
+    console.log(touchEndVal)
+    //check difference of x & y
+    if(Math.abs(touchStartVal.y - touchEndVal.y) < 30){
+      if(touchEndVal.x > touchStartVal.x+50){
+        setDisplaySlider(!displaySlider)
+      }
+    }
+  }
   return (
     <ThemeProvider theme={Theme}>
       <AppDiv onWheel={handleContainerScroll}>
         <Nav scrollVal={scrollVal} />
         <MobileSideNav
           onTouchStart={handleTouchStart}
-          onTouchMove={(e)=>debounce(handleTouchMove, e, 300)}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
           className={displaySlider?'red':'blue'}
         />
         <Container>
