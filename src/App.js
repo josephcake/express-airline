@@ -3,7 +3,7 @@ import './App.css';
 import styled, {ThemeProvider} from 'styled-components'
 import Nav from './top-navigation/Nav'
 import SideNav from './side-navigation/SideNav'
-import {MobileSideNav} from './side-navigation/MobileSideNav'
+import MobileSideNav from './side-navigation/MobileSideNav'
 import Home from './home/Home'
 import {Theme} from './styled/theme/Theme'
 
@@ -24,31 +24,35 @@ const AppDiv = styled.div`
 `;
 const Container = styled.div`
   display:flex;
-  justify-content:space-between;
-  /* position:absolute;
-  bottom:0; */
+  justify-content:space-between;  
   height:100%;
   width:100%;
 `
 
 function App() {
-  useEffect(() => {}, []);
+  // useEffect(() => {}, []);
   const [scrollVal, setScrollVal] = useState(0);
+  const [isSideNavOpen, setIsSideNavOpen] = useState(false)
   const handleContainerScroll = () => {
     // console.log(window.scrollY);
     setScrollVal(window.scrollY);
   };
 
+  const handleSideNavToggle = () =>{
+    // console.log(isSideNavOpen)
+    setIsSideNavOpen(!isSideNavOpen)
+  }
 
   return (
     <ThemeProvider theme={Theme}>
-      <AppDiv onWheel={handleContainerScroll}>
-        <Nav scrollVal={scrollVal} />
-        <MobileSideNav/>
+      <AppDiv onWheel={handleContainerScroll} className={'app'}>
+        <Nav scrollVal={scrollVal} setIsSideNavOpen={handleSideNavToggle}/>
+        <MobileSideNav isSideNavOpen={isSideNavOpen}/>
         <Container>
           <SideNav />
           <Home />
         </Container>
+        
       </AppDiv>
     </ThemeProvider>
   );

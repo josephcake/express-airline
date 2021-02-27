@@ -45,12 +45,12 @@ const Profile = styled.div`
   }
 `;
 
-const Nav = ({scrollVal}) =>{  
+const Nav = ({scrollVal, setIsSideNavOpen}) =>{  
 
   return (
     <Navbar className={`${scrollVal>0?'bbs':'_out'}`}>
       <ItemContainer_Row>
-        <NavItem>toggle</NavItem>
+        <NavItem onClick={setIsSideNavOpen}>toggle</NavItem>
         <NavItem>logo</NavItem>
       </ItemContainer_Row>
       <ItemContainer_Row>

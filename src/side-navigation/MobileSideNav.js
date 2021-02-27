@@ -2,36 +2,31 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import MobileSideNavContent from './MobileSideNavContent';
 
+
 const MobileSideNavContainer = styled.div`
-  z-index:999;
+  z-index: 999;
   position: fixed;
   top: 0;
-  left: 0;
-  bottom: 0;
-  width: 20px;
-  /* background: rgba(0,0,0,0.2); */
-  /* visibility: hidden; */
-  display:none;
-  @media screen and (max-width: 1000px) {
-    /* visibility: visible; */
-    display:flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transform: translateX(${(props) => (props.isSideNavOpen ? 0 : -100)}%);
+
+   @media screen and (max-width: 1000px) {
+    transition: all 2s ease-in-out;
+    transform: translateX(${({isSideNavOpen}) => isSideNavOpen ? 0 : -100}%);
   }
 `;
 
 
+const MobileSideNav = ({isSideNavOpen}) =>{
+  // console.log(isSideNavOpen);
 
-const MobileSideNav = () =>{
-  
-
-  
   return (
-    <MobileSideNavContainer      
-    >
-      <MobileSideNavContent
-        
-      />
+    <MobileSideNavContainer isSideNavOpen={isSideNavOpen}>
+      <MobileSideNavContent />
     </MobileSideNavContainer>
   );
 }
 
-export {MobileSideNav}
+export default MobileSideNav
