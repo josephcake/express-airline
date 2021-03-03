@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import styled, {ThemeProvider} from 'styled-components'
 import Nav from './top-navigation/Nav'
-import SideNav from './side-navigation/SideNav'
 import MobileSideNav from './side-navigation/MobileSideNav'
 import Home from './home/Home'
 import {Theme} from './styled/theme/Theme'
@@ -50,14 +49,17 @@ const Container = styled.div`
 `;
 
 function App() {
-  // useEffect(() => {}, []);
+  const appRef = React.createRef()
+  useEffect(() => {
+    const appNode = appRef.current
+    appNode.scrollIntoView()    
+  }, []);
   const [scrollVal, setScrollVal] = useState(0);
   const [isSideNavOpen, setIsSideNavOpen] = useState(false)
   const handleContainerScroll = () => {
     // console.log(window.scrollY);
     setScrollVal(window.scrollY);
   };
-
   const handleSideNavToggle = () =>{
     // console.log(isSideNavOpen)
     setIsSideNavOpen(!isSideNavOpen)
@@ -66,13 +68,17 @@ function App() {
   return (
     <ThemeProvider theme={Theme}>
       <AppContainer>
-        <MobileSideNav isSideNavOpen={isSideNavOpen}/>
-        <HomeDiv onWheel={handleContainerScroll} className={'app'}>
-          <Nav scrollVal={scrollVal} setIsSideNavOpen={handleSideNavToggle}/>
-          <Container>
-            <SideNav />
+        <MobileSideNav isSideNavOpen={isSideNavOpen} />
+        <HomeDiv
+          ref={appRef}
+           id={"test"}
+          onWheel={handleContainerScroll}
+          className={"app"}
+        >
+          <Nav scrollVal={scrollVal} setIsSideNavOpen={handleSideNavToggle} />
+          <Container>            
             <Home />
-          </Container>        
+          </Container>
         </HomeDiv>
       </AppContainer>
     </ThemeProvider>
