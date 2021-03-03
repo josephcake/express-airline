@@ -8,6 +8,7 @@ import { Container_50 } from '../styled/containers/Container'
 import {ReactSVG} from 'react-svg'
 
 const HomeContainer = styled.div`
+  
   display:flex;
   flex-direction:column;
   width:100%;

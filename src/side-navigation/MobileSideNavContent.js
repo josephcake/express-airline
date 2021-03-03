@@ -20,7 +20,12 @@ const MobileSideNavContentContainer = styled.div`
 const MobileSideNavContent = () =>{
 
   return (
-    <MobileSideNavContentContainer/>
+    <MobileSideNavContentContainer>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+      <div>hello</div>
+    </MobileSideNavContentContainer>
   )
 }
 

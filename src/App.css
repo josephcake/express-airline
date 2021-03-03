@@ -1,7 +1,7 @@
 html,body{
   font-size: 10px;
   font-family: 'DM Mono', monospace;
-  /* overflow: hidden; */
+  /* overflow-x: hidden; */
   /* font-family: 'Noto Sans', sans-serif; */
 }
 *{

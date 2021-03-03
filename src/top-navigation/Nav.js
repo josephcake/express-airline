@@ -10,10 +10,11 @@ const Navbar = styled.div`
   width: 100%;
   height: 60px;
   /* padding: 5px; */
-  position: sticky;
+  position: fixed;
   top: 0;
+  right:0;
   background: white;
-  z-index: 999;
+  z-index: 9999;
   font-size: clamp(2rem, 2vw, 3rem);
   @media screen and (max-width: 600px) {
     /* font-size: 20px; */

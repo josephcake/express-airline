@@ -5,10 +5,10 @@ import MobileSideNavContent from './MobileSideNavContent';
 
 const MobileSideNavContainer = styled.div`
   /* z-index: 999; */
-  /* position: fixed; */
-  /* top: 0; */
-  width: 100vw;
-  height: 100%;
+  position: relative;
+  top: 0;
+  /* width: 100vw; */
+  height: 100vh;
   background: rgba(0, 0, 0, 0.4);
   /* transform: translateX(${(props) => (props.isSideNavOpen ? 0 : -100)}%); */
 
