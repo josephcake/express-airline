@@ -24,6 +24,8 @@ const AppContainer = styled.div`
 `;
 
 const HomeDiv = styled.div`
+  /* position:fixed; */
+  /* overflow-y:hidden; */
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -11,11 +11,10 @@ const MobileSideNavContainer = styled.div`
   height: 100vh;
   background: rgba(0, 0, 0, 0.4);
   /* transform: translateX(${(props) => (props.isSideNavOpen ? 0 : -100)}%); */
-
-   /* @media screen and (max-width: 1000px) {
-    transition: all 2s ease-in-out;
-    transform: translateX(${({isSideNavOpen}) => isSideNavOpen ? 0 : -100}%);
-  } */
+  display:none;
+   @media screen and (max-width: 600px) {
+     display:flex;
+  }
 `;
 
 
