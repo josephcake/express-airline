@@ -7,8 +7,21 @@ import MobileSideNav from './side-navigation/MobileSideNav'
 import Home from './home/Home'
 import {Theme} from './styled/theme/Theme'
 
+const AppContainer = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  scroll-snap-type-x: mandatory;
+  scroll-snap-points-x: repeat(100vw);
+  /* overflow-x: scroll; */
+  & > div {
+    width:100vw;
+    scroll-snap-align: center;
+    scroll-snap-stop: always:
+  }
+`;
 
-const AppDiv = styled.div`
+const HomeDiv = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,15 +58,16 @@ function App() {
 
   return (
     <ThemeProvider theme={Theme}>
-      <AppDiv onWheel={handleContainerScroll} className={'app'}>
-        <Nav scrollVal={scrollVal} setIsSideNavOpen={handleSideNavToggle}/>
+      <AppContainer>
         <MobileSideNav isSideNavOpen={isSideNavOpen}/>
-        <Container>
-          <SideNav />
-          <Home />
-        </Container>
-        
-      </AppDiv>
+        <HomeDiv onWheel={handleContainerScroll} className={'app'}>
+          <Nav scrollVal={scrollVal} setIsSideNavOpen={handleSideNavToggle}/>
+          <Container>
+            <SideNav />
+            <Home />
+          </Container>        
+        </HomeDiv>
+      </AppContainer>
     </ThemeProvider>
   );
 }
