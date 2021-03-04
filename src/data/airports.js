@@ -1,2698 +1,2698 @@
-const USA = {
-   "ABR":{
-      "city":"Aberdeen",
-      "state":"SD"
-   },
-   "ABI":{
-      "city":"Abilene",
-      "state":"TX"
-   },
-   "ADK":{
-      "city":"Adak Island",
-      "state":"AK"
-   },
-   "KKI":{
-      "city":"Akiachak",
-      "state":"AK"
-   },
-   "AKI":{
-      "city":"Akiak",
-      "state":"AK"
-   },
-   "CAK":{
-      "city":"Akron",
-      "state":"OH"
-   },
-   "KQA":{
-      "city":"Akuton",
-      "state":"AK"
-   },
-   "AUK":{
-      "city":"Alakanuk",
-      "state":"AK"
-   },
-   "ALM":{
-      "city":"Alamogordo",
-      "state":"NM"
-   },
-   "ALS":{
-      "city":"Alamosa",
-      "state":"CO"
-   },
-   "ALB":{
-      "city":"Albany",
-      "state":"NY"
-   },
-   "CVO":{
-      "city":"Albany",
-      "state":"OR"
-   },
-   "QWY":{
-      "city":"Albany",
-      "state":"OR"
-   },
-   "ABQ":{
-      "city":"Albuquerque",
-      "state":"NM"
-   },
-   "WKK":{
-      "city":"Aleknagik",
-      "state":"AK"
-   },
-   "AEX":{
-      "city":"Alexandria",
-      "state":"LA"
-   },
-   "AET":{
-      "city":"Allakaket",
-      "state":"AK"
-   },
-   "ABE":{
-      "city":"Allentown",
-      "state":"PA"
-   },
-   "AIA":{
-      "city":"Alliance",
-      "state":"NE"
-   },
-   "APN":{
-      "city":"Alpena",
-      "state":"MI"
-   },
-   "AMA":{
-      "city":"Amarillo",
-      "state":"TX"
-   },
-   "ABL":{
-      "city":"Ambler",
-      "state":"AK"
-   },
-   "AKP":{
-      "city":"Anaktueuk",
-      "state":"AK"
-   },
-   "ANC":{
-      "city":"Anchorage",
-      "state":"AK"
-   },
-   "AGN":{
-      "city":"Angoon",
-      "state":"AK"
-   },
-   "ANI":{
-      "city":"Aniak",
-      "state":"AK"
-   },
-   "ANV":{
-      "city":"Anvik",
-      "state":"AK"
-   },
-   "ATW":{
-      "city":"Appleton",
-      "state":"WI"
-   },
-   "ACV":{
-      "city":"Arcata",
-      "state":"CA"
-   },
-   "ARC":{
-      "city":"Arctic Village",
-      "state":"AK"
-   },
-   "AVL":{
-      "city":"Asheville",
-      "state":"NC"
-   },
-   "HTS":{
-      "city":"Ashland",
-      "state":"WV"
-   },
-   "ASE":{
-      "city":"Aspen",
-      "state":"CO"
-   },
-   "AHN":{
-      "city":"Athens",
-      "state":"GA"
-   },
-   "AKB":{
-      "city":"Atka",
-      "state":"AK"
-   },
-   "ATL":{
-      "city":"Atlanta",
-      "state":"GA"
-   },
-   "AIY":{
-      "city":"Atlantic City",
-      "state":"NJ"
-   },
-   "ATK":{
-      "city":"Atqasuk",
-      "state":"AK"
-   },
-   "AGS":{
-      "city":"Augusta",
-      "state":"GA"
-   },
-   "AUG":{
-      "city":"Augusta",
-      "state":"ME"
-   },
-   "AUS":{
-      "city":"Austin",
-      "state":"TX"
-   },
-   "BFL":{
-      "city":"Bakersfield",
-      "state":"CA"
-   },
-   "BWI":{
-      "city":"Baltimore",
-      "state":"MD"
-   },
-   "BGR":{
-      "city":"Bangor",
-      "state":"ME"
-   },
-   "BHB":{
-      "city":"Bar Harbour",
-      "state":"ME"
-   },
-   "BRW":{
-      "city":"Barrow",
-      "state":"AK"
-   },
-   "BTI":{
-      "city":"Barter Island",
-      "state":"AK"
-   },
-   "BTR":{
-      "city":"Baton Rouge",
-      "state":"LA"
-   },
-   "MBS":{
-      "city":"Bay City",
-      "state":"MI"
-   },
-   "BPT":{
-      "city":"Beaumont",
-      "state":"TX"
-   },
-   "ZBV":{
-      "city":"Beaver Creek",
-      "state":"CO"
-   },
-   "WBQ":{
-      "city":"Beaver",
-      "state":"AK"
-   },
-   "BKW":{
-      "city":"Beckley",
-      "state":"WV"
-   },
-   "BED":{
-      "city":"Bedford",
-      "state":"MA"
-   },
-   "BLV":{
-      "city":"Belleville",
-      "state":"IL"
-   },
-   "BLI":{
-      "city":"Bellingham",
-      "state":"WA"
-   },
-   "BJI":{
-      "city":"Bemidji",
-      "state":"MN"
-   },
-   "BEH":{
-      "city":"Benton Harbor",
-      "state":"MI"
-   },
-   "BET":{
-      "city":"Bethel",
-      "state":"AK"
-   },
-   "BTT":{
-      "city":"Bettles",
-      "state":"AK"
-   },
-   "BIL":{
-      "city":"Billings",
-      "state":"MT"
-   },
-   "GPT":{
-      "city":"Biloxi",
-      "state":"MS"
-   },
-   "BGM":{
-      "city":"Binghamton",
-      "state":"NY"
-   },
-   "KBC":{
-      "city":"Birch Creek",
-      "state":"AK"
-   },
-   "BHM":{
-      "city":"Birmingham",
-      "state":"AL"
-   },
-   "BIS":{
-      "city":"Bismarck",
-      "state":"ND"
-   },
-   "BID":{
-      "city":"Block Island",
-      "state":"RI"
-   },
-   "BMI":{
-      "city":"Bloomington",
-      "state":"IL"
-   },
-   "BLF":{
-      "city":"Bluefield",
-      "state":"WV"
-   },
-   "BOI":{
-      "city":"Boise",
-      "state":"ID"
-   },
-   "BOS":{
-      "city":"Boston",
-      "state":"MA"
-   },
-   "XHH":{
-      "city":"Boulder",
-      "state":"CO"
-   },
-   "WHH":{
-      "city":"Boulder",
-      "state":"CO"
-   },
-   "WBU":{
-      "city":"Boulder",
-      "state":"CO"
-   },
-   "BYA":{
-      "city":"Boundary",
-      "state":"AK"
-   },
-   "BWG":{
-      "city":"Bowling Green",
-      "state":"KY"
-   },
-   "BZN":{
-      "city":"Bozeman",
-      "state":"MT"
-   },
-   "BFD":{
-      "city":"Bradford",
-      "state":"PA"
-   },
-   "BRD":{
-      "city":"Brainerd",
-      "state":"MN"
-   },
-   "BWD":{
-      "city":"Brawnwood",
-      "state":"TX"
-   },
-   "QKB":{
-      "city":"Breckonridge",
-      "state":"CO"
-   },
-   "TRI":{
-      "city":"Bristol",
-      "state":"VA"
-   },
-   "BKX":{
-      "city":"Brookings",
-      "state":"SD"
-   },
-   "RBH":{
-      "city":"Brooks Lodge",
-      "state":"AK"
-   },
-   "BRO":{
-      "city":"Brownsville",
-      "state":"TX"
-   },
-   "BQK":{
-      "city":"Brunswick",
-      "state":"GA"
-   },
-   "BKC":{
-      "city":"Buckland",
-      "state":"AK"
-   },
-   "BUF":{
-      "city":"Buffalo",
-      "state":"NY"
-   },
-   "IFP":{
-      "city":"Bullhead City",
-      "state":"AZ"
-   },
-   "BUR":{
-      "city":"Burbank",
-      "state":"CA"
-   },
-   "BRL":{
-      "city":"Burlington",
-      "state":"IA"
-   },
-   "BTV":{
-      "city":"Burlington",
-      "state":"VT"
-   },
-   "BTM":{
-      "city":"Butte",
-      "state":"MT"
-   },
-   "CGI":{
-      "city":"Cape Girardeau",
-      "state":"MO"
-   },
-   "LUR":{
-      "city":"Cape Lisburne",
-      "state":"AK"
-   },
-   "EHM":{
-      "city":"Cape Newenham",
-      "state":"AK"
-   },
-   "MDH":{
-      "city":"Carbondale",
-      "state":"IL"
-   },
-   "CLD":{
-      "city":"Carlsbad",
-      "state":"CA"
-   },
-   "CNM":{
-      "city":"Carlsbad",
-      "state":"NM"
-   },
-   "MRY":{
-      "city":"Carmel",
-      "state":"CA"
-   },
-   "CPR":{
-      "city":"Casper",
-      "state":"WY"
-   },
-   "CDC":{
-      "city":"Cedar City",
-      "state":"UT"
-   },
-   "CID":{
-      "city":"Cedar Rapids",
-      "state":"IA"
-   },
-   "CEM":{
-      "city":"Central",
-      "state":"AK"
-   },
-   "CDR":{
-      "city":"Chadron",
-      "state":"NE"
-   },
-   "CIK":{
-      "city":"Chalkyitsik",
-      "state":"AK"
-   },
-   "CMI":{
-      "city":"Champaign",
-      "state":"IL"
-   },
-   "CHS":{
-      "city":"Charleston",
-      "state":"SC"
-   },
-   "CRW":{
-      "city":"Charleston",
-      "state":"WV"
-   },
-   "CLT":{
-      "city":"Charlotte",
-      "state":"NC"
-   },
-   "CHO":{
-      "city":"Charlottesville",
-      "state":"VA"
-   },
-   "CHA":{
-      "city":"Chattanooga",
-      "state":"TN"
-   },
-   "CYF":{
-      "city":"Chefornak",
-      "state":"AK"
-   },
-   "VAK":{
-      "city":"Chevak",
-      "state":"AK"
-   },
-   "CYS":{
-      "city":"Cheyenne",
-      "state":"WY"
-   },
-   "CGX":{
-      "city":"Chicago",
-      "state":"IL"
-   },
-   "CHI":{
-      "city":"Chicago",
-      "state":"IL"
-   },
-   "MDW":{
-      "city":"Chicago",
-      "state":"IL"
-   },
-   "ORD":{
-      "city":"Chicago",
-      "state":"IL"
-   },
-   "CKX":{
-      "city":"Chicken",
-      "state":"AK"
-   },
-   "CIC":{
-      "city":"Chico",
-      "state":"CA"
-   },
-   "KCG":{
-      "city":"Chignik",
-      "state":"AK"
-   },
-   "KCQ":{
-      "city":"Chignik",
-      "state":"AK"
-   },
-   "KCL":{
-      "city":"Chignik",
-      "state":"AK"
-   },
-   "CZN":{
-      "city":"Chisana",
-      "state":"AK"
-   },
-   "HIB":{
-      "city":"Chisholm",
-      "state":"MN"
-   },
-   "CHU":{
-      "city":"Chuathbaluk",
-      "state":"AK"
-   },
-   "CVG":{
-      "city":"Cincinnati",
-      "state":"OH"
-   },
-   "CHP":{
-      "city":"Circle Hot Springs",
-      "state":"AK"
-   },
-   "IRC":{
-      "city":"Circle",
-      "state":"AK"
-   },
-   "CLP":{
-      "city":"Clarks Point",
-      "state":"AK"
-   },
-   "CKB":{
-      "city":"Clarksburg",
-      "state":"WV"
-   },
-   "PIE":{
-      "city":"Clearwater",
-      "state":"FL"
-   },
-   "CLE":{
-      "city":"Cleveland",
-      "state":"OH"
-   },
-   "CVN":{
-      "city":"Clovis",
-      "state":"NM"
-   },
-   "COD":{
-      "city":"Cody",
-      "state":"WY"
-   },
-   "CFA":{
-      "city":"Coffee Point",
-      "state":"AK"
-   },
-   "KCC":{
-      "city":"Coffman Cove",
-      "state":"AK"
-   },
-   "CDB":{
-      "city":"Cold Bay",
-      "state":"AK"
-   },
-   "CLL":{
-      "city":"College Station",
-      "state":"TX"
-   },
-   "COS":{
-      "city":"Colorado Springs",
-      "state":"CO"
-   },
-   "COU":{
-      "city":"Columbia",
-      "state":"MO"
-   },
-   "CAE":{
-      "city":"Columbia",
-      "state":"SC"
-   },
-   "CSG":{
-      "city":"Columbus",
-      "state":"GA"
-   },
-   "GTR":{
-      "city":"Columbus",
-      "state":"MS"
-   },
-   "CMH":{
-      "city":"Columbus",
-      "state":"OH"
-   },
-   "CCR":{
-      "city":"Concord",
-      "state":"CA"
-   },
-   "CNK":{
-      "city":"Concordia",
-      "state":"KS"
-   },
-   "QCE":{
-      "city":"Copper Mountain",
-      "state":"CO"
-   },
-   "CDV":{
-      "city":"Cordova",
-      "state":"AK"
-   },
-   "CRP":{
-      "city":"Corpus Christi",
-      "state":"TX"
-   },
-   "CEZ":{
-      "city":"Cortez",
-      "state":"CO"
-   },
-   "CGA":{
-      "city":"Craig",
-      "state":"AK"
-   },
-   "CEC":{
-      "city":"Crescent City",
-      "state":"CA"
-   },
-   "CKO":{
-      "city":"Crooked Creek",
-      "state":"AK"
-   },
-   "CUW":{
-      "city":"Cube Cove",
-      "state":"AK"
-   },
-   "CBE":{
-      "city":"Cumberland",
-      "state":"MD"
-   },
-   "DFW":{
-      "city":"Dallas",
-      "state":"TX"
-   },
-   "DAY":{
-      "city":"Dayton",
-      "state":"OH"
-   },
-   "DAB":{
-      "city":"Daytona Beach",
-      "state":"FL"
-   },
-   "DEC":{
-      "city":"Decatur",
-      "state":"IL"
-   },
-   "DRG":{
-      "city":"Deering",
-      "state":"AK"
-   },
-   "DJN":{
-      "city":"Delta Junction",
-      "state":"AK"
-   },
-   "DEN":{
-      "city":"Denver",
-      "state":"CO"
-   },
-   "QWM":{
-      "city":"Denver",
-      "state":"CO"
-   },
-   "DSM":{
-      "city":"Des Moines",
-      "state":"IA"
-   },
-   "DTW":{
-      "city":"Detroit",
-      "state":"MI"
-   },
-   "DVL":{
-      "city":"Devils Lake",
-      "state":"ND"
-   },
-   "DIK":{
-      "city":"Dickinson",
-      "state":"ND"
-   },
-   "DLG":{
-      "city":"Dillingham",
-      "state":"AK"
-   },
-   "DDC":{
-      "city":"Dodge City",
-      "state":"KS"
-   },
-   "DHN":{
-      "city":"Dothan",
-      "state":"AL"
-   },
-   "DUJ":{
-      "city":"Dubois",
-      "state":"PA"
-   },
-   "DBQ":{
-      "city":"Dubuque",
-      "state":"IA"
-   },
-   "DLH":{
-      "city":"Duluth",
-      "state":"MN"
-   },
-   "DRO":{
-      "city":"Durango",
-      "state":"CO"
-   },
-   "RDU":{
-      "city":"Durham",
-      "state":"NC"
-   },
-   "DUT":{
-      "city":"Dutch Harbor",
-      "state":"AK"
-   },
-   "EAU":{
-      "city":"Eau Claire",
-      "state":"WI"
-   },
-   "EDA":{
-      "city":"Edna Bay",
-      "state":"AK"
-   },
-   "EEK":{
-      "city":"Eek",
-      "state":"AK"
-   },
-   "KKU":{
-      "city":"Ekuk",
-      "state":"AK"
-   },
-   "KEK":{
-      "city":"Ekwok",
-      "state":"AK"
-   },
-   "IPL":{
-      "city":"El Centro",
-      "state":"CA"
-   },
-   "ELD":{
-      "city":"El Dorado",
-      "state":"AR"
-   },
-   "ELP":{
-      "city":"El Paso",
-      "state":"TX"
-   },
-   "ELV":{
-      "city":"Elfin Cove",
-      "state":"AK"
-   },
-   "ELI":{
-      "city":"Elim",
-      "state":"AK"
-   },
-   "EKO":{
-      "city":"Elko",
-      "state":"NV"
-   },
-   "ELM":{
-      "city":"Elmira",
-      "state":"NY"
-   },
-   "LYU":{
-      "city":"Ely",
-      "state":"MN"
-   },
-   "EMK":{
-      "city":"Emmonak",
-      "state":"AK"
-   },
-   "WDG":{
-      "city":"Enid",
-      "state":"OK"
-   },
-   "ERI":{
-      "city":"Erie",
-      "state":"PA"
-   },
-   "ESC":{
-      "city":"Escanaba",
-      "state":"MI"
-   },
-   "EUG":{
-      "city":"Eugene",
-      "state":"OR"
-   },
-   "EUE":{
-      "city":"Eureka",
-      "state":"NV"
-   },
-   "EVV":{
-      "city":"Evansville",
-      "state":"IN"
-   },
-   "FAI":{
-      "city":"Fairbanks",
-      "state":"AK"
-   },
-   "FAR":{
-      "city":"Fargo",
-      "state":"ND"
-   },
-   "FYV":{
-      "city":"Fayetteville",
-      "state":"AR"
-   },
-   "XNA":{
-      "city":"Fayetteville",
-      "state":"AR"
-   },
-   "FAY":{
-      "city":"Fayetteville",
-      "state":"NC"
-   },
-   "FLG":{
-      "city":"Flagstaff",
-      "state":"AZ"
-   },
-   "FNT":{
-      "city":"Flint",
-      "state":"MI"
-   },
-   "FLO":{
-      "city":"Florence",
-      "state":"SC"
-   },
-   "FNL":{
-      "city":"Fort Collins",
-      "state":"CO"
-   },
-   "QWF":{
-      "city":"Loveland",
-      "state":"CO"
-   },
-   "FOD":{
-      "city":"Fort Dodge",
-      "state":"IA"
-   },
-   "FLL":{
-      "city":"Fort Lauderdale",
-      "state":"FL"
-   },
-   "TBN":{
-      "city":"Fort Leonard Wood",
-      "state":"MO"
-   },
-   "RSW":{
-      "city":"Fort Myers",
-      "state":"FL"
-   },
-   "FSM":{
-      "city":"Fort Smith",
-      "state":"AR"
-   },
-   "FWA":{
-      "city":"Fort Wayne",
-      "state":"IN"
-   },
-   "FKL":{
-      "city":"Franklin",
-      "state":"PA"
-   },
-   "FAT":{
-      "city":"Fresno",
-      "state":"CA"
-   },
-   "GNV":{
-      "city":"Gainesville",
-      "state":"FL"
-   },
-   "GUP":{
-      "city":"Gallup",
-      "state":"NM"
-   },
-   "GCK":{
-      "city":"Garden City",
-      "state":"KS"
-   },
-   "GYY":{
-      "city":"Gary",
-      "state":"IN"
-   },
-   "GCC":{
-      "city":"Gillette",
-      "state":"WY"
-   },
-   "GGG":{
-      "city":"Gladewater",
-      "state":"TX"
-   },
-   "GGW":{
-      "city":"Glasgow",
-      "state":"MT"
-   },
-   "GDV":{
-      "city":"Glendive",
-      "state":"MT"
-   },
-   "GLV":{
-      "city":"Golovin",
-      "state":"AK"
-   },
-   "GNU":{
-      "city":"Goodnews Bay",
-      "state":"AK"
-   },
-   "JGC":{
-      "city":"Grand Canyon",
-      "state":"AZ"
-   },
-   "GCN":{
-      "city":"Grand Canyon",
-      "state":"AZ"
-   },
-   "GFK":{
-      "city":"Grand Forks",
-      "state":"ND"
-   },
-   "GRI":{
-      "city":"Grand Island",
-      "state":"NE"
-   },
-   "GJT":{
-      "city":"Grand Junction",
-      "state":"CO"
-   },
-   "GRR":{
-      "city":"Grand Rapids",
-      "state":"MI"
-   },
-   "GPZ":{
-      "city":"Grand Rapids",
-      "state":"MN"
-   },
-   "KGX":{
-      "city":"Grayling",
-      "state":"AK"
-   },
-   "GTF":{
-      "city":"Great Falls",
-      "state":"MT"
-   },
-   "GRB":{
-      "city":"Green Bay",
-      "state":"WI"
-   },
-   "GSO":{
-      "city":"Greensboro",
-      "state":"NC"
-   },
-   "GLH":{
-      "city":"Greenville",
-      "state":"MS"
-   },
-   "PGV":{
-      "city":"Greenville",
-      "state":"NC"
-   },
-   "GSP":{
-      "city":"Greenville",
-      "state":"SC"
-   },
-   "GON":{
-      "city":"Groton",
-      "state":"CT"
-   },
-   "GUC":{
-      "city":"Gunnison",
-      "state":"CO"
-   },
-   "GST":{
-      "city":"Gustavus",
-      "state":"AK"
-   },
-   "HGR":{
-      "city":"Hagerstown",
-      "state":"MD"
-   },
-   "HNS":{
-      "city":"Haines",
-      "state":"AK"
-   },
-   "PHF":{
-      "city":"Hampton",
-      "state":"VA"
-   },
-   "HNM":{
-      "city":"Hana",
-      "state":"HI"
-   },
-   "PAK":{
-      "city":"Hanapepe",
-      "state":"HI"
-   },
-   "CMX":{
-      "city":"Hancock",
-      "state":"MI"
-   },
-   "HRL":{
-      "city":"Harlingen",
-      "state":"TX"
-   },
-   "MDT":{
-      "city":"Harrisburg",
-      "state":"PA"
-   },
-   "HRO":{
-      "city":"Harrison",
-      "state":"AR"
-   },
-   "BDL":{
-      "city":"Hartford",
-      "state":"CT"
-   },
-   "HAE":{
-      "city":"Havasupai",
-      "state":"AZ"
-   },
-   "HVR":{
-      "city":"Havre",
-      "state":"MT"
-   },
-   "HDN":{
-      "city":"Hayden",
-      "state":"CO"
-   },
-   "HYS":{
-      "city":"Hays",
-      "state":"KS"
-   },
-   "HKB":{
-      "city":"Healy Lake",
-      "state":"AK"
-   },
-   "HLN":{
-      "city":"Helena",
-      "state":"MT"
-   },
-   "HKY":{
-      "city":"Hickory",
-      "state":"NC"
-   },
-   "ITO":{
-      "city":"Hilo",
-      "state":"HI"
-   },
-   "HHH":{
-      "city":"Hilton Head",
-      "state":"SC"
-   },
-   "HBB":{
-      "city":"Hobbs",
-      "state":"NM"
-   },
-   "HYL":{
-      "city":"Hollis",
-      "state":"AK"
-   },
-   "HCR":{
-      "city":"Holy Cross",
-      "state":"AK"
-   },
-   "HOM":{
-      "city":"Homer",
-      "state":"AK"
-   },
-   "HNL":{
-      "city":"Honolulu",
-      "state":"HI"
-   },
-   "MKK":{
-      "city":"Hoolehua",
-      "state":"HI"
-   },
-   "HNH":{
-      "city":"Hoonah",
-      "state":"AK"
-   },
-   "HPB":{
-      "city":"Hooper Bay",
-      "state":"AK"
-   },
-   "HOT":{
-      "city":"Hot Springs",
-      "state":"AR"
-   },
-   "HOU":{
-      "city":"Houston",
-      "state":"TX"
-   },
-   "IAH":{
-      "city":"Houston",
-      "state":"TX"
-   },
-   "HUS":{
-      "city":"Hughes",
-      "state":"AK"
-   },
-   "HSV":{
-      "city":"Huntsville",
-      "state":"AL"
-   },
-   "HON":{
-      "city":"Huron",
-      "state":"SD"
-   },
-   "HSL":{
-      "city":"Huslia",
-      "state":"AK"
-   },
-   "HYA":{
-      "city":"Hyannis",
-      "state":"MA"
-   },
-   "HYG":{
-      "city":"Hydaburg",
-      "state":"AK"
-   },
-   "IDA":{
-      "city":"Idaho Falls",
-      "state":"ID"
-   },
-   "IGG":{
-      "city":"Igiugig",
-      "state":"AK"
-   },
-   "ILI":{
-      "city":"Iliamna",
-      "state":"AK"
-   },
-   "IND":{
-      "city":"Indianapolis",
-      "state":"IN"
-   },
-   "INL":{
-      "city":"International Falls",
-      "state":"MN"
-   },
-   "IYK":{
-      "city":"Inyokern",
-      "state":"CA"
-   },
-   "IMT":{
-      "city":"Iron Mountain",
-      "state":"MI"
-   },
-   "IWD":{
-      "city":"Ironwood",
-      "state":"MI"
-   },
-   "ISP":{
-      "city":"Islip",
-      "state":"NY"
-   },
-   "ITH":{
-      "city":"Ithaca",
-      "state":"NY"
-   },
-   "JAC":{
-      "city":"Jackson Hole",
-      "state":"WY"
-   },
-   "JAN":{
-      "city":"Jackson",
-      "state":"MS"
-   },
-   "MKL":{
-      "city":"Jackson",
-      "state":"TN"
-   },
-   "JAX":{
-      "city":"Jacksonville",
-      "state":"FL"
-   },
-   "OAJ":{
-      "city":"Jacksonville",
-      "state":"NC"
-   },
-   "JMS":{
-      "city":"Jamestown",
-      "state":"ND"
-   },
-   "JHW":{
-      "city":"Jamestown",
-      "state":"NY"
-   },
-   "JVL":{
-      "city":"Janesville",
-      "state":"WI"
-   },
-   "JST":{
-      "city":"Johnstown",
-      "state":"PA"
-   },
-   "JBR":{
-      "city":"Jonesboro",
-      "state":"AR"
-   },
-   "JLN":{
-      "city":"Joplin",
-      "state":"MO"
-   },
-   "JNU":{
-      "city":"Juneau",
-      "state":"AK"
-   },
-   "KAE":{
-      "city":"Kake",
-      "state":"AK"
-   },
-   "KNK":{
-      "city":"Kakhonak",
-      "state":"AK"
-   },
-   "AZO":{
-      "city":"Kalamazoo",
-      "state":"MI"
-   },
-   "LUP":{
-      "city":"Kalaupapa",
-      "state":"HI"
-   },
-   "KLG":{
-      "city":"Kalskag",
-      "state":"AK"
-   },
-   "KAL":{
-      "city":"Kaltag",
-      "state":"AK"
-   },
-   "MUE":{
-      "city":"Kamuela",
-      "state":"HI"
-   },
-   "MCI":{
-      "city":"Kansas City",
-      "state":"MO"
-   },
-   "JHM":{
-      "city":"Kapalua",
-      "state":"HI"
-   },
-   "KXA":{
-      "city":"Kasaan",
-      "state":"AK"
-   },
-   "KUK":{
-      "city":"Kasigluk",
-      "state":"AK"
-   },
-   "EAR":{
-      "city":"Kearney",
-      "state":"NE"
-   },
-   "EEN":{
-      "city":"Keene",
-      "state":"NH"
-   },
-   "ENA":{
-      "city":"Kenai",
-      "state":"AK"
-   },
-   "KTN":{
-      "city":"Ketchikan",
-      "state":"AK"
-   },
-   "EYW":{
-      "city":"Key West",
-      "state":"FL"
-   },
-   "QKS":{
-      "city":"Keystone",
-      "state":"CO"
-   },
-   "IAN":{
-      "city":"Kiana",
-      "state":"AK"
-   },
-   "ILE":{
-      "city":"Killeen",
-      "state":"TX"
-   },
-   "KVC":{
-      "city":"King Cove",
-      "state":"AK"
-   },
-   "AKN":{
-      "city":"King Salmon",
-      "state":"AK"
-   },
-   "IGM":{
-      "city":"Kingman",
-      "state":"AZ"
-   },
-   "KPN":{
-      "city":"Kipnuk",
-      "state":"AK"
-   },
-   "IRK":{
-      "city":"Kirksville",
-      "state":"MO"
-   },
-   "KVL":{
-      "city":"Kivalina",
-      "state":"AK"
-   },
-   "LMT":{
-      "city":"Klamath Falls",
-      "state":"OR"
-   },
-   "KLW":{
-      "city":"Klawock",
-      "state":"AK"
-   },
-   "TYS":{
-      "city":"Knoxville",
-      "state":"TN"
-   },
-   "OBU":{
-      "city":"Kobuk",
-      "state":"AK"
-   },
-   "ADQ":{
-      "city":"Kodiak",
-      "state":"AK"
-   },
-   "KOA":{
-      "city":"Kona",
-      "state":"HI"
-   },
-   "KKH":{
-      "city":"Kongiganak",
-      "state":"AK"
-   },
-   "KOT":{
-      "city":"Kotlik",
-      "state":"AK"
-   },
-   "OTZ":{
-      "city":"Kotzebue",
-      "state":"AK"
-   },
-   "KYU":{
-      "city":"Koyukuk",
-      "state":"AK"
-   },
-   "KWT":{
-      "city":"Kwethluk",
-      "state":"AK"
-   },
-   "KWK":{
-      "city":"Kwigillingok",
-      "state":"AK"
-   },
-   "LSE":{
-      "city":"La Crosse",
-      "state":"WI"
-   },
-   "LAF":{
-      "city":"Lafayette",
-      "state":"IN"
-   },
-   "LFT":{
-      "city":"Lafayette",
-      "state":"LA"
-   },
-   "LCH":{
-      "city":"Lake Charles",
-      "state":"LA"
-   },
-   "HII":{
-      "city":"Lake Havasu City",
-      "state":"AZ"
-   },
-   "LMA":{
-      "city":"Lake Minchumina",
-      "state":"AK"
-   },
-   "LNY":{
-      "city":"Lanai City",
-      "state":"HI"
-   },
-   "LNS":{
-      "city":"Lancaster",
-      "state":"PA"
-   },
-   "LAN":{
-      "city":"Lansing",
-      "state":"MI"
-   },
-   "LAR":{
-      "city":"Laramie",
-      "state":"WY"
-   },
-   "LRD":{
-      "city":"Laredo",
-      "state":"TX"
-   },
-   "LAS":{
-      "city":"Las Vegas",
-      "state":"NV"
-   },
-   "LBE":{
-      "city":"Latrobe",
-      "state":"PA"
-   },
-   "PIB":{
-      "city":"Laurel",
-      "state":"MS"
-   },
-   "LAW":{
-      "city":"Lawton",
-      "state":"OK"
-   },
-   "LEB":{
-      "city":"Lebanon",
-      "state":"NH"
-   },
-   "KLL":{
-      "city":"Levelock",
-      "state":"AK"
-   },
-   "LWB":{
-      "city":"Lewisburg",
-      "state":"WV"
-   },
-   "LWS":{
-      "city":"Lewiston",
-      "state":"ID"
-   },
-   "LWT":{
-      "city":"Lewistown",
-      "state":"MT"
-   },
-   "LEX":{
-      "city":"Lexington",
-      "state":"KY"
-   },
-   "LBL":{
-      "city":"Liberal",
-      "state":"KS"
-   },
-   "LIH":{
-      "city":"Lihue",
-      "state":"HI"
-   },
-   "LNK":{
-      "city":"Lincoln",
-      "state":"NE"
-   },
-   "LIT":{
-      "city":"Little Rock",
-      "state":"AR"
-   },
-   "LGB":{
-      "city":"Long Beach",
-      "state":"CA"
-   },
-   "LPS":{
-      "city":"Lopez Island",
-      "state":"WA"
-   },
-   "LAX":{
-      "city":"Los Angeles",
-      "state":"CA"
-   },
-   "SDF":{
-      "city":"Louisville",
-      "state":"KY"
-   },
-   "LBB":{
-      "city":"Lubbock",
-      "state":"TX"
-   },
-   "MCN":{
-      "city":"Macon",
-      "state":"GA"
-   },
-   "MSN":{
-      "city":"Madison",
-      "state":"WI"
-   },
-   "MDJ":{
-      "city":"Madras",
-      "state":"OR"
-   },
-   "MHT":{
-      "city":"Manchester",
-      "state":"NH"
-   },
-   "MHK":{
-      "city":"Manhattan",
-      "state":"KS"
-   },
-   "MBL":{
-      "city":"Manistee",
-      "state":"MI"
-   },
-   "MKT":{
-      "city":"Mankato",
-      "state":"MN"
-   },
-   "MLY":{
-      "city":"Manley Hot Springs",
-      "state":"AK"
-   },
-   "KMO":{
-      "city":"Manokotak",
-      "state":"AK"
-   },
-   "PKB":{
-      "city":"Marietta",
-      "state":"OH"
-   },
-   "MWA":{
-      "city":"Marion",
-      "state":"IL"
-   },
-   "MQT":{
-      "city":"Marquette",
-      "state":"MI"
-   },
-   "MLL":{
-      "city":"Marshall",
-      "state":"AK"
-   },
-   "MVY":{
-      "city":"Marthas Vineyard",
-      "state":"MA"
-   },
-   "AOO":{
-      "city":"Martinsburg",
-      "state":"PA"
-   },
-   "MCW":{
-      "city":"Mason City",
-      "state":"IA"
-   },
-   "MSS":{
-      "city":"Massena",
-      "state":"NY"
-   },
-   "OGG":{
-      "city":"Maui",
-      "state":"HI"
-   },
-   "MCK":{
-      "city":"Mccook",
-      "state":"NE"
-   },
-   "MCG":{
-      "city":"Mcgrath",
-      "state":"AK"
-   },
-   "MFR":{
-      "city":"Medford",
-      "state":"OR"
-   },
-   "MYU":{
-      "city":"Mekoryuk",
-      "state":"AK"
-   },
-   "MLB":{
-      "city":"Melbourne",
-      "state":"FL"
-   },
-   "MEM":{
-      "city":"Memphis",
-      "state":"TN"
-   },
-   "MCE":{
-      "city":"Merced",
-      "state":"CA"
-   },
-   "MEI":{
-      "city":"Meridian",
-      "state":"MS"
-   },
-   "MTM":{
-      "city":"Metlakatla",
-      "state":"AK"
-   },
-   "WMK":{
-      "city":"Meyers Chuck",
-      "state":"AK"
-   },
-   "MIA":{
-      "city":"Miami",
-      "state":"FL"
-   },
-   "MPB":{
-      "city":"Miami",
-      "state":"FL"
-   },
-   "MAF":{
-      "city":"Midland",
-      "state":"TX"
-   },
-   "MLS":{
-      "city":"Miles City",
-      "state":"MT"
-   },
-   "MKE":{
-      "city":"Milwaukee",
-      "state":"WI"
-   },
-   "MSP":{
-      "city":"Minneapolis",
-      "state":"MN"
-   },
-   "MOT":{
-      "city":"Minot",
-      "state":"ND"
-   },
-   "MNT":{
-      "city":"Minto",
-      "state":"AK"
-   },
-   "MFE":{
-      "city":"Mission",
-      "state":"TX"
-   },
-   "MSO":{
-      "city":"Missoula",
-      "state":"MT"
-   },
-   "CNY":{
-      "city":"Moab",
-      "state":"UT"
-   },
-   "MOB":{
-      "city":"Mobile",
-      "state":"AL"
-   },
-   "MOD":{
-      "city":"Modesto",
-      "state":"CA"
-   },
-   "MLI":{
-      "city":"Moline",
-      "state":"IL"
-   },
-   "MLU":{
-      "city":"Monroe",
-      "state":"LA"
-   },
-   "MGM":{
-      "city":"Montgomery",
-      "state":"AL"
-   },
-   "MTJ":{
-      "city":"Montrose",
-      "state":"CO"
-   },
-   "MGW":{
-      "city":"Morgantown",
-      "state":"WV"
-   },
-   "MWH":{
-      "city":"Moses Lake",
-      "state":"WA"
-   },
-   "WMH":{
-      "city":"Mountain Home",
-      "state":"AR"
-   },
-   "MOU":{
-      "city":"Mountain Village",
-      "state":"AK"
-   },
-   "MKG":{
-      "city":"Muskegon",
-      "state":"MI"
-   },
-   "MYR":{
-      "city":"Myrtle Beach",
-      "state":"SC"
-   },
-   "ACK":{
-      "city":"Nantucket",
-      "state":"MA"
-   },
-   "WNA":{
-      "city":"Napakiak",
-      "state":"AK"
-   },
-   "PKA":{
-      "city":"Napaskiak",
-      "state":"AK"
-   },
-   "APF":{
-      "city":"Naples",
-      "state":"FL"
-   },
-   "BNA":{
-      "city":"Nashville",
-      "state":"TN"
-   },
-   "NKI":{
-      "city":"Naukiti",
-      "state":"AK"
-   },
-   "NLG":{
-      "city":"Nelson Lagoon",
-      "state":"AK"
-   },
-   "NCN":{
-      "city":"New Chenega",
-      "state":"AK"
-   },
-   "HVN":{
-      "city":"New Haven",
-      "state":"CT"
-   },
-   "KGK":{
-      "city":"New Koliganek",
-      "state":"AK"
-   },
-   "MSY":{
-      "city":"New Orleans",
-      "state":"LA"
-   },
-   "KNW":{
-      "city":"New Stuyahok",
-      "state":"AK"
-   },
-   "JFK":{
-      "city":"New York",
-      "state":"NY"
-   },
-   "LGA":{
-      "city":"New York",
-      "state":"NY"
-   },
-   "EWR":{
-      "city":"Newark",
-      "state":"NJ"
-   },
-   "WWT":{
-      "city":"Newtok",
-      "state":"AK"
-   },
-   "NME":{
-      "city":"Nightmute",
-      "state":"AK"
-   },
-   "NIB":{
-      "city":"Nikolai",
-      "state":"AK"
-   },
-   "IKO":{
-      "city":"Nikolski",
-      "state":"AK"
-   },
-   "WTK":{
-      "city":"Noatak",
-      "state":"AK"
-   },
-   "OME":{
-      "city":"Nome",
-      "state":"AK"
-   },
-   "NNL":{
-      "city":"Nondalton",
-      "state":"AK"
-   },
-   "ORV":{
-      "city":"Noorvik",
-      "state":"AK"
-   },
-   "OFK":{
-      "city":"Norfolk",
-      "state":"NE"
-   },
-   "ORF":{
-      "city":"Norfolk",
-      "state":"VA"
-   },
-   "OTH":{
-      "city":"North Bend",
-      "state":"OR"
-   },
-   "LBF":{
-      "city":"North Platte",
-      "state":"NE"
-   },
-   "ORT":{
-      "city":"Northway",
-      "state":"AK"
-   },
-   "NUI":{
-      "city":"Nuiqsut",
-      "state":"AK"
-   },
-   "NUL":{
-      "city":"Nulato",
-      "state":"AK"
-   },
-   "NUP":{
-      "city":"Nunapitchuk",
-      "state":"AK"
-   },
-   "OAK":{
-      "city":"Oakland",
-      "state":"CA"
-   },
-   "OGS":{
-      "city":"Ogdensburg",
-      "state":"NY"
-   },
-   "OKC":{
-      "city":"Oklahoma City",
-      "state":"OK"
-   },
-   "OMA":{
-      "city":"Omaha",
-      "state":"NE"
-   },
-   "ONT":{
-      "city":"Ontario",
-      "state":"CA"
-   },
-   "ORL":{
-      "city":"Orlando",
-      "state":"FL"
-   },
-   "MCO":{
-      "city":"Orlando",
-      "state":"FL"
-   },
-   "OSH":{
-      "city":"Oshkosh",
-      "state":"WI"
-   },
-   "OTM":{
-      "city":"Ottumwa",
-      "state":"IA"
-   },
-   "OWB":{
-      "city":"Owensboro",
-      "state":"KY"
-   },
-   "PAH":{
-      "city":"Paducah",
-      "state":"KY"
-   },
-   "PGA":{
-      "city":"Page",
-      "state":"AZ"
-   },
-   "PSP":{
-      "city":"Palm Springs",
-      "state":"CA"
-   },
-   "PFN":{
-      "city":"Panama City",
-      "state":"FL"
-   },
-   "PSC":{
-      "city":"Pasco",
-      "state":"WA"
-   },
-   "PDB":{
-      "city":"Pedro Bay",
-      "state":"AK"
-   },
-   "PEC":{
-      "city":"Pelican",
-      "state":"AK"
-   },
-   "PLN":{
-      "city":"Pellston",
-      "state":"MI"
-   },
-   "PDT":{
-      "city":"Pendleton",
-      "state":"OR"
-   },
-   "PNS":{
-      "city":"Pensacola",
-      "state":"FL"
-   },
-   "PIA":{
-      "city":"Peoria",
-      "state":"IL"
-   },
-   "KPV":{
-      "city":"Perryville",
-      "state":"AK"
-   },
-   "PSG":{
-      "city":"Petersburg",
-      "state":"AK"
-   },
-   "PHL":{
-      "city":"Philadelphia",
-      "state":"PA"
-   },
-   "TTN":{
-      "city":"Philadelphia",
-      "state":"PA"
-   },
-   "PHX":{
-      "city":"Phoenix",
-      "state":"AZ"
-   },
-   "PIR":{
-      "city":"Pierre",
-      "state":"SD"
-   },
-   "UGB":{
-      "city":"Pilot Point",
-      "state":"AK"
-   },
-   "PIP":{
-      "city":"Pilot Point",
-      "state":"AK"
-   },
-   "PQS":{
-      "city":"Pilot Station",
-      "state":"AK"
-   },
-   "PIT":{
-      "city":"Pittsburgh",
-      "state":"PA"
-   },
-   "PTU":{
-      "city":"Platinum",
-      "state":"AK"
-   },
-   "PLB":{
-      "city":"Plattsburgh",
-      "state":"NY"
-   },
-   "PIH":{
-      "city":"Pocatello",
-      "state":"ID"
-   },
-   "KPB":{
-      "city":"Point Baker",
-      "state":"AK"
-   },
-   "PHO":{
-      "city":"Point Hope",
-      "state":"AK"
-   },
-   "PIZ":{
-      "city":"Point Lay",
-      "state":"AK"
-   },
-   "PNC":{
-      "city":"Ponca City",
-      "state":"OK"
-   },
-   "PTA":{
-      "city":"Port Alsworth",
-      "state":"AK"
-   },
-   "CLM":{
-      "city":"Port Angeles",
-      "state":"WA"
-   },
-   "KPC":{
-      "city":"Port Clarence",
-      "state":"AK"
-   },
-   "PTH":{
-      "city":"Port Heiden",
-      "state":"AK"
-   },
-   "PML":{
-      "city":"Port Moller",
-      "state":"AK"
-   },
-   "PPV":{
-      "city":"Port Protection",
-      "state":"AK"
-   },
-   "PCA":{
-      "city":"Portage Creek",
-      "state":"AK"
-   },
-   "PWM":{
-      "city":"Portland",
-      "state":"ME"
-   },
-   "PDX":{
-      "city":"Portland",
-      "state":"OR"
-   },
-   "PSM":{
-      "city":"Portsmouth",
-      "state":"NH"
-   },
-   "POU":{
-      "city":"Poughkeepsie",
-      "state":"NY"
-   },
-   "PRC":{
-      "city":"Prescott",
-      "state":"AZ"
-   },
-   "PQI":{
-      "city":"Presque Isle",
-      "state":"ME"
-   },
-   "PVD":{
-      "city":"Providence",
-      "state":"RI"
-   },
-   "PVC":{
-      "city":"Provincetown",
-      "state":"MA"
-   },
-   "SCC":{
-      "city":"Prudhoe Bay/Deadhorse",
-      "state":"AK"
-   },
-   "PUB":{
-      "city":"Pueblo",
-      "state":"CO"
-   },
-   "PUW":{
-      "city":"Pullman",
-      "state":"WA"
-   },
-   "UIN":{
-      "city":"Quincy",
-      "state":"IL"
-   },
-   "KWN":{
-      "city":"Quinhagak",
-      "state":"AK"
-   },
-   "RMP":{
-      "city":"Rampart",
-      "state":"AK"
-   },
-   "RAP":{
-      "city":"Rapid City",
-      "state":"SD"
-   },
-   "RDG":{
-      "city":"Reading",
-      "state":"PA"
-   },
-   "RDV":{
-      "city":"Red Devil",
-      "state":"AK"
-   },
-   "RDD":{
-      "city":"Redding",
-      "state":"CA"
-   },
-   "RDM":{
-      "city":"Redmond",
-      "state":"OR"
-   },
-   "RNO":{
-      "city":"Reno",
-      "state":"NV"
-   },
-   "RHI":{
-      "city":"Rhinelander",
-      "state":"WI"
-   },
-   "RIC":{
-      "city":"Richmond",
-      "state":"VA"
-   },
-   "RIW":{
-      "city":"Riverton",
-      "state":"WY"
-   },
-   "ROA":{
-      "city":"Roanoke",
-      "state":"VA"
-   },
-   "RCE":{
-      "city":"Roche Harbor",
-      "state":"WA"
-   },
-   "RST":{
-      "city":"Rochester",
-      "state":"MN"
-   },
-   "ROC":{
-      "city":"Rochester",
-      "state":"NY"
-   },
-   "RKS":{
-      "city":"Rock Springs",
-      "state":"WY"
-   },
-   "ZRF":{
-      "city":"Rockford",
-      "state":"IL"
-   },
-   "ZRK":{
-      "city":"Rockford",
-      "state":"IL"
-   },
-   "RKD":{
-      "city":"Rockland",
-      "state":"ME"
-   },
-   "RSJ":{
-      "city":"Rosario",
-      "state":"WA"
-   },
-   "ROW":{
-      "city":"Roswell",
-      "state":"NM"
-   },
-   "RBY":{
-      "city":"Ruby",
-      "state":"AK"
-   },
-   "RSH":{
-      "city":"Russian Mission",
-      "state":"AK"
-   },
-   "RUT":{
-      "city":"Rutland",
-      "state":"VT"
-   },
-   "SMF":{
-      "city":"Sacramento",
-      "state":"CA"
-   },
-   "STC":{
-      "city":"Saint Cloud",
-      "state":"MN"
-   },
-   "STG":{
-      "city":"Saint George Island",
-      "state":"AK"
-   },
-   "SGU":{
-      "city":"Saint George",
-      "state":"UT"
-   },
-   "STL":{
-      "city":"Saint Louis",
-      "state":"MO"
-   },
-   "KSM":{
-      "city":"Saint Marys",
-      "state":"AK"
-   },
-   "SMK":{
-      "city":"Saint Michael",
-      "state":"AK"
-   },
-   "SNP":{
-      "city":"Saint Paul Island",
-      "state":"AK"
-   },
-   "SLE":{
-      "city":"Salem",
-      "state":"OR"
-   },
-   "SLN":{
-      "city":"Salina",
-      "state":"KS"
-   },
-   "SBY":{
-      "city":"Salisbury-Ocean City",
-      "state":"MD"
-   },
-   "SLC":{
-      "city":"Salt Lake City",
-      "state":"UT"
-   },
-   "SJT":{
-      "city":"San Angelo",
-      "state":"TX"
-   },
-   "SAT":{
-      "city":"San Antonio",
-      "state":"TX"
-   },
-   "SAN":{
-      "city":"San Diego",
-      "state":"CA"
-   },
-   "SFO":{
-      "city":"San Francisco",
-      "state":"CA"
-   },
-   "SJC":{
-      "city":"San Jose",
-      "state":"CA"
-   },
-   "SBP":{
-      "city":"San Luis Obispo",
-      "state":"CA"
-   },
-   "SDP":{
-      "city":"Sand Point",
-      "state":"AK"
-   },
-   "SNA":{
-      "city":"Santa Ana",
-      "state":"CA"
-   },
-   "SBA":{
-      "city":"Santa Barbara",
-      "state":"CA"
-   },
-   "SAF":{
-      "city":"Santa Fe",
-      "state":"NM"
-   },
-   "SMX":{
-      "city":"Santa Maria",
-      "state":"CA"
-   },
-   "STS":{
-      "city":"Santa Rosa",
-      "state":"CA"
-   },
-   "SLK":{
-      "city":"Saranac Lake",
-      "state":"NY"
-   },
-   "SRQ":{
-      "city":"Sarasota",
-      "state":"FL"
-   },
-   "CIU":{
-      "city":"Sault Ste Marie",
-      "state":"MI"
-   },
-   "SAV":{
-      "city":"Savannah",
-      "state":"GA"
-   },
-   "SVA":{
-      "city":"Savoonga",
-      "state":"AK"
-   },
-   "SCM":{
-      "city":"Scammon Bay",
-      "state":"AK"
-   },
-   "BFF":{
-      "city":"Scottsbluff",
-      "state":"NE"
-   },
-   "SDL":{
-      "city":"Scottsdale",
-      "state":"AZ"
-   },
-   "AVP":{
-      "city":"Scranton",
-      "state":"PA"
-   },
-   "LKE":{
-      "city":"Seattle",
-      "state":"WA"
-   },
-   "SEA":{
-      "city":"Seattle",
-      "state":"WA"
-   },
-   "WLK":{
-      "city":"Selawik",
-      "state":"AK"
-   },
-   "SWD":{
-      "city":"Seward",
-      "state":"AK"
-   },
-   "SHX":{
-      "city":"Shageluk",
-      "state":"AK"
-   },
-   "SKK":{
-      "city":"Shaktoolik",
-      "state":"AK"
-   },
-   "MSL":{
-      "city":"Sheffield",
-      "state":"AL"
-   },
-   "SXP":{
-      "city":"Sheldon Point",
-      "state":"AK"
-   },
-   "SHR":{
-      "city":"Sheridan",
-      "state":"WY"
-   },
-   "SHH":{
-      "city":"Shishmaref",
-      "state":"AK"
-   },
-   "SHV":{
-      "city":"Shreveport",
-      "state":"LA"
-   },
-   "SHG":{
-      "city":"Shungnak",
-      "state":"AK"
-   },
-   "SVC":{
-      "city":"Silver City",
-      "state":"NM"
-   },
-   "SUX":{
-      "city":"Sioux City",
-      "state":"IA"
-   },
-   "FSD":{
-      "city":"Sioux Falls",
-      "state":"SD"
-   },
-   "SIT":{
-      "city":"Sitka",
-      "state":"AK"
-   },
-   "SGY":{
-      "city":"Skagway",
-      "state":"AK"
-   },
-   "SLQ":{
-      "city":"Sleetmore",
-      "state":"AK"
-   },
-   "SBN":{
-      "city":"South Bend",
-      "state":"IN"
-   },
-   "WSN":{
-      "city":"South Naknek",
-      "state":"AK"
-   },
-   "SOP":{
-      "city":"Southern Pines",
-      "state":"NC"
-   },
-   "GEG":{
-      "city":"Spokane",
-      "state":"WA"
-   },
-   "SPI":{
-      "city":"Springfield",
-      "state":"IL"
-   },
-   "SGF":{
-      "city":"Springfield",
-      "state":"MO"
-   },
-   "SCE":{
-      "city":"State College",
-      "state":"PA"
-   },
-   "SHD":{
-      "city":"Staunton",
-      "state":"VA"
-   },
-   "SBS":{
-      "city":"Steamboat Springs",
-      "state":"CO"
-   },
-   "WBB":{
-      "city":"Stebbins",
-      "state":"AK"
-   },
-   "CWA":{
-      "city":"Wausau",
-      "state":"WI"
-   },
-   "SVS":{
-      "city":"Stevens Village",
-      "state":"AK"
-   },
-   "SWF":{
-      "city":"Newburgh",
-      "state":"NY"
-   },
-   "SCK":{
-      "city":"Stockton",
-      "state":"CA"
-   },
-   "SRV":{
-      "city":"Stony River",
-      "state":"AK"
-   },
-   "SUN":{
-      "city":"Sun Valley",
-      "state":"ID"
-   },
-   "SYR":{
-      "city":"Syracuse",
-      "state":"NY"
-   },
-   "TCT":{
-      "city":"Takotna",
-      "state":"AK"
-   },
-   "TKA":{
-      "city":"Talkeetna",
-      "state":"AK"
-   },
-   "TLH":{
-      "city":"Tallahassee",
-      "state":"FL"
-   },
-   "TPA":{
-      "city":"Tampa",
-      "state":"FL"
-   },
-   "TAL":{
-      "city":"Tanana",
-      "state":"AK"
-   },
-   "TSM":{
-      "city":"Taos",
-      "state":"NM"
-   },
-   "TEK":{
-      "city":"Tatitlek",
-      "state":"AK"
-   },
-   "KTS":{
-      "city":"Teller Mission",
-      "state":"AK"
-   },
-   "TEX":{
-      "city":"Telluride",
-      "state":"CO"
-   },
-   "TKE":{
-      "city":"Tenakee Springs",
-      "state":"AK"
-   },
-   "HUF":{
-      "city":"Terre Haute",
-      "state":"IN"
-   },
-   "TEH":{
-      "city":"Tetlin",
-      "state":"AK"
-   },
-   "TXK":{
-      "city":"Texarkana",
-      "state":"AR"
-   },
-   "TVF":{
-      "city":"Thief River Falls",
-      "state":"MN"
-   },
-   "KTB":{
-      "city":"Thorne Bay",
-      "state":"AK"
-   },
-   "TNC":{
-      "city":"Tin City",
-      "state":"AK"
-   },
-   "TOG":{
-      "city":"Togiak Village",
-      "state":"AK"
-   },
-   "TKJ":{
-      "city":"Tok",
-      "state":"AK"
-   },
-   "OOK":{
-      "city":"Toksook Bay",
-      "state":"AK"
-   },
-   "TOL":{
-      "city":"Toledo",
-      "state":"OH"
-   },
-   "FOE":{
-      "city":"Topeka",
-      "state":"KS"
-   },
-   "TVC":{
-      "city":"Traverse City",
-      "state":"MI"
-   },
-   "TUS":{
-      "city":"Tucson",
-      "state":"AZ"
-   },
-   "TUL":{
-      "city":"Tulsa",
-      "state":"OK"
-   },
-   "TLT":{
-      "city":"Tuluksak",
-      "state":"AK"
-   },
-   "WTL":{
-      "city":"Tuntutuliak",
-      "state":"AK"
-   },
-   "TNK":{
-      "city":"Tununak",
-      "state":"AK"
-   },
-   "TUP":{
-      "city":"Tupelo",
-      "state":"MS"
-   },
-   "TCL":{
-      "city":"Tuscaloosa",
-      "state":"AL"
-   },
-   "TWF":{
-      "city":"Twin Falls",
-      "state":"ID"
-   },
-   "TWA":{
-      "city":"Twin Hills",
-      "state":"AK"
-   },
-   "TYR":{
-      "city":"Tyler",
-      "state":"TX"
-   },
-   "UNK":{
-      "city":"Unalakleet",
-      "state":"AK"
-   },
-   "UCA":{
-      "city":"Utica",
-      "state":"NY"
-   },
-   "UTO":{
-      "city":"Utopia Creek",
-      "state":"AK"
-   },
-   "EGE":{
-      "city":"Vail",
-      "state":"CO"
-   },
-   "QBF":{
-      "city":"Vail",
-      "state":"CO"
-   },
-   "VDZ":{
-      "city":"Valdez",
-      "state":"AK"
-   },
-   "VLD":{
-      "city":"Valdosta",
-      "state":"GA"
-   },
-   "VPS":{
-      "city":"Valparaiso",
-      "state":"FL"
-   },
-   "VEE":{
-      "city":"Venetie",
-      "state":"AK"
-   },
-   "OXR":{
-      "city":"Ventura",
-      "state":"CA"
-   },
-   "VEL":{
-      "city":"Vernal",
-      "state":"UT"
-   },
-   "VCT":{
-      "city":"Victoria",
-      "state":"TX"
-   },
-   "VIS":{
-      "city":"Visalia",
-      "state":"CA"
-   },
-   "ACT":{
-      "city":"Waco",
-      "state":"TX"
-   },
-   "AIN":{
-      "city":"Wainwright",
-      "state":"AK"
-   },
-   "WAA":{
-      "city":"Wales",
-      "state":"AK"
-   },
-   "ALW":{
-      "city":"Walla Walla",
-      "state":"WA"
-   },
-   "IAD":{
-      "city":"Washington DC"
-   },
-   "DCA":{
-      "city":"Washington DC"
-   },
-   "KWF":{
-      "city":"Waterfall",
-      "state":"AK"
-   },
-   "ALO":{
-      "city":"Waterloo",
-      "state":"IA"
-   },
-   "ART":{
-      "city":"Watertown",
-      "state":"NY"
-   },
-   "ATY":{
-      "city":"Watertown",
-      "state":"SD"
-   },
-   "EAT":{
-      "city":"Wenatchee",
-      "state":"WA"
-   },
-   "PBI":{
-      "city":"West Palm Beach",
-      "state":"FL"
-   },
-   "WYS":{
-      "city":"West Yellowstone",
-      "state":"MT"
-   },
-   "HPN":{
-      "city":"Westchester County",
-      "state":"NY"
-   },
-   "WST":{
-      "city":"Westerly",
-      "state":"RI"
-   },
-   "WSX":{
-      "city":"Westsound",
-      "state":"WA"
-   },
-   "WWP":{
-      "city":"Whale Pass",
-      "state":"AK"
-   },
-   "WMO":{
-      "city":"White Mountain",
-      "state":"AK"
-   },
-   "SPS":{
-      "city":"Wichita Falls",
-      "state":"TX"
-   },
-   "ICT":{
-      "city":"Wichita",
-      "state":"KS"
-   },
-   "IPT":{
-      "city":"Williamsport",
-      "state":"PA"
-   },
-   "ISN":{
-      "city":"Williston",
-      "state":"ND"
-   },
-   "ILM":{
-      "city":"Wilmington",
-      "state":"NC"
-   },
-   "ORH":{
-      "city":"Worcester",
-      "state":"MA"
-   },
-   "WRL":{
-      "city":"Worland",
-      "state":"WY"
-   },
-   "WRG":{
-      "city":"Wrangell",
-      "state":"AK"
-   },
-   "YKM":{
-      "city":"Yakima",
-      "state":"WA"
-   },
-   "YAK":{
-      "city":"Yakutat",
-      "state":"AK"
-   },
-   "YNG":{
-      "city":"Youngstown",
-      "state":"OH"
-   },
-   "YUM":{
-      "city":"Yuma",
-      "state":"AZ"
-   }
-}
+const USA_code = {
+  abr: {
+    city: "aberdeen",
+    state: "sd",
+  },
+  abi: {
+    city: "abilene",
+    state: "tx",
+  },
+  adk: {
+    city: "adak island",
+    state: "ak",
+  },
+  kki: {
+    city: "akiachak",
+    state: "ak",
+  },
+  aki: {
+    city: "akiak",
+    state: "ak",
+  },
+  cak: {
+    city: "akron",
+    state: "oh",
+  },
+  kqa: {
+    city: "akuton",
+    state: "ak",
+  },
+  auk: {
+    city: "alakanuk",
+    state: "ak",
+  },
+  alm: {
+    city: "alamogordo",
+    state: "nm",
+  },
+  als: {
+    city: "alamosa",
+    state: "co",
+  },
+  alb: {
+    city: "albany",
+    state: "ny",
+  },
+  cvo: {
+    city: "albany",
+    state: "or",
+  },
+  qwy: {
+    city: "albany",
+    state: "or",
+  },
+  abq: {
+    city: "albuquerque",
+    state: "nm",
+  },
+  wkk: {
+    city: "aleknagik",
+    state: "ak",
+  },
+  aex: {
+    city: "alexandria",
+    state: "la",
+  },
+  aet: {
+    city: "allakaket",
+    state: "ak",
+  },
+  abe: {
+    city: "allentown",
+    state: "pa",
+  },
+  aia: {
+    city: "alliance",
+    state: "ne",
+  },
+  apn: {
+    city: "alpena",
+    state: "mi",
+  },
+  ama: {
+    city: "amarillo",
+    state: "tx",
+  },
+  abl: {
+    city: "ambler",
+    state: "ak",
+  },
+  akp: {
+    city: "anaktueuk",
+    state: "ak",
+  },
+  anc: {
+    city: "anchorage",
+    state: "ak",
+  },
+  agn: {
+    city: "angoon",
+    state: "ak",
+  },
+  ani: {
+    city: "aniak",
+    state: "ak",
+  },
+  anv: {
+    city: "anvik",
+    state: "ak",
+  },
+  atw: {
+    city: "appleton",
+    state: "wi",
+  },
+  acv: {
+    city: "arcata",
+    state: "ca",
+  },
+  arc: {
+    city: "arctic village",
+    state: "ak",
+  },
+  avl: {
+    city: "asheville",
+    state: "nc",
+  },
+  hts: {
+    city: "ashland",
+    state: "wv",
+  },
+  ase: {
+    city: "aspen",
+    state: "co",
+  },
+  ahn: {
+    city: "athens",
+    state: "ga",
+  },
+  akb: {
+    city: "atka",
+    state: "ak",
+  },
+  atl: {
+    city: "atlanta",
+    state: "ga",
+  },
+  aiy: {
+    city: "atlantic city",
+    state: "nj",
+  },
+  atk: {
+    city: "atqasuk",
+    state: "ak",
+  },
+  ags: {
+    city: "augusta",
+    state: "ga",
+  },
+  aug: {
+    city: "augusta",
+    state: "me",
+  },
+  aus: {
+    city: "austin",
+    state: "tx",
+  },
+  bfl: {
+    city: "bakersfield",
+    state: "ca",
+  },
+  bwi: {
+    city: "baltimore",
+    state: "md",
+  },
+  bgr: {
+    city: "bangor",
+    state: "me",
+  },
+  bhb: {
+    city: "bar harbour",
+    state: "me",
+  },
+  brw: {
+    city: "barrow",
+    state: "ak",
+  },
+  bti: {
+    city: "barter island",
+    state: "ak",
+  },
+  btr: {
+    city: "baton rouge",
+    state: "la",
+  },
+  mbs: {
+    city: "bay city",
+    state: "mi",
+  },
+  bpt: {
+    city: "beaumont",
+    state: "tx",
+  },
+  zbv: {
+    city: "beaver creek",
+    state: "co",
+  },
+  wbq: {
+    city: "beaver",
+    state: "ak",
+  },
+  bkw: {
+    city: "beckley",
+    state: "wv",
+  },
+  bed: {
+    city: "bedford",
+    state: "ma",
+  },
+  blv: {
+    city: "belleville",
+    state: "il",
+  },
+  bli: {
+    city: "bellingham",
+    state: "wa",
+  },
+  bji: {
+    city: "bemidji",
+    state: "mn",
+  },
+  beh: {
+    city: "benton harbor",
+    state: "mi",
+  },
+  bet: {
+    city: "bethel",
+    state: "ak",
+  },
+  btt: {
+    city: "bettles",
+    state: "ak",
+  },
+  bil: {
+    city: "billings",
+    state: "mt",
+  },
+  gpt: {
+    city: "biloxi",
+    state: "ms",
+  },
+  bgm: {
+    city: "binghamton",
+    state: "ny",
+  },
+  kbc: {
+    city: "birch creek",
+    state: "ak",
+  },
+  bhm: {
+    city: "birmingham",
+    state: "al",
+  },
+  bis: {
+    city: "bismarck",
+    state: "nd",
+  },
+  bid: {
+    city: "block island",
+    state: "ri",
+  },
+  bmi: {
+    city: "bloomington",
+    state: "il",
+  },
+  blf: {
+    city: "bluefield",
+    state: "wv",
+  },
+  boi: {
+    city: "boise",
+    state: "id",
+  },
+  bos: {
+    city: "boston",
+    state: "ma",
+  },
+  xhh: {
+    city: "boulder",
+    state: "co",
+  },
+  whh: {
+    city: "boulder",
+    state: "co",
+  },
+  wbu: {
+    city: "boulder",
+    state: "co",
+  },
+  bya: {
+    city: "boundary",
+    state: "ak",
+  },
+  bwg: {
+    city: "bowling green",
+    state: "ky",
+  },
+  bzn: {
+    city: "bozeman",
+    state: "mt",
+  },
+  bfd: {
+    city: "bradford",
+    state: "pa",
+  },
+  brd: {
+    city: "brainerd",
+    state: "mn",
+  },
+  bwd: {
+    city: "brawnwood",
+    state: "tx",
+  },
+  qkb: {
+    city: "breckonridge",
+    state: "co",
+  },
+  tri: {
+    city: "bristol",
+    state: "va",
+  },
+  bkx: {
+    city: "brookings",
+    state: "sd",
+  },
+  rbh: {
+    city: "brooks lodge",
+    state: "ak",
+  },
+  bro: {
+    city: "brownsville",
+    state: "tx",
+  },
+  bqk: {
+    city: "brunswick",
+    state: "ga",
+  },
+  bkc: {
+    city: "buckland",
+    state: "ak",
+  },
+  buf: {
+    city: "buffalo",
+    state: "ny",
+  },
+  ifp: {
+    city: "bullhead city",
+    state: "az",
+  },
+  bur: {
+    city: "burbank",
+    state: "ca",
+  },
+  brl: {
+    city: "burlington",
+    state: "ia",
+  },
+  btv: {
+    city: "burlington",
+    state: "vt",
+  },
+  btm: {
+    city: "butte",
+    state: "mt",
+  },
+  cgi: {
+    city: "cape girardeau",
+    state: "mo",
+  },
+  lur: {
+    city: "cape lisburne",
+    state: "ak",
+  },
+  ehm: {
+    city: "cape newenham",
+    state: "ak",
+  },
+  mdh: {
+    city: "carbondale",
+    state: "il",
+  },
+  cld: {
+    city: "carlsbad",
+    state: "ca",
+  },
+  cnm: {
+    city: "carlsbad",
+    state: "nm",
+  },
+  mry: {
+    city: "carmel",
+    state: "ca",
+  },
+  cpr: {
+    city: "casper",
+    state: "wy",
+  },
+  cdc: {
+    city: "cedar city",
+    state: "ut",
+  },
+  cid: {
+    city: "cedar rapids",
+    state: "ia",
+  },
+  cem: {
+    city: "central",
+    state: "ak",
+  },
+  cdr: {
+    city: "chadron",
+    state: "ne",
+  },
+  cik: {
+    city: "chalkyitsik",
+    state: "ak",
+  },
+  cmi: {
+    city: "champaign",
+    state: "il",
+  },
+  chs: {
+    city: "charleston",
+    state: "sc",
+  },
+  crw: {
+    city: "charleston",
+    state: "wv",
+  },
+  clt: {
+    city: "charlotte",
+    state: "nc",
+  },
+  cho: {
+    city: "charlottesville",
+    state: "va",
+  },
+  cha: {
+    city: "chattanooga",
+    state: "tn",
+  },
+  cyf: {
+    city: "chefornak",
+    state: "ak",
+  },
+  vak: {
+    city: "chevak",
+    state: "ak",
+  },
+  cys: {
+    city: "cheyenne",
+    state: "wy",
+  },
+  cgx: {
+    city: "chicago",
+    state: "il",
+  },
+  chi: {
+    city: "chicago",
+    state: "il",
+  },
+  mdw: {
+    city: "chicago",
+    state: "il",
+  },
+  ord: {
+    city: "chicago",
+    state: "il",
+  },
+  ckx: {
+    city: "chicken",
+    state: "ak",
+  },
+  cic: {
+    city: "chico",
+    state: "ca",
+  },
+  kcg: {
+    city: "chignik",
+    state: "ak",
+  },
+  kcq: {
+    city: "chignik",
+    state: "ak",
+  },
+  kcl: {
+    city: "chignik",
+    state: "ak",
+  },
+  czn: {
+    city: "chisana",
+    state: "ak",
+  },
+  hib: {
+    city: "chisholm",
+    state: "mn",
+  },
+  chu: {
+    city: "chuathbaluk",
+    state: "ak",
+  },
+  cvg: {
+    city: "cincinnati",
+    state: "oh",
+  },
+  chp: {
+    city: "circle hot springs",
+    state: "ak",
+  },
+  irc: {
+    city: "circle",
+    state: "ak",
+  },
+  clp: {
+    city: "clarks point",
+    state: "ak",
+  },
+  ckb: {
+    city: "clarksburg",
+    state: "wv",
+  },
+  pie: {
+    city: "clearwater",
+    state: "fl",
+  },
+  cle: {
+    city: "cleveland",
+    state: "oh",
+  },
+  cvn: {
+    city: "clovis",
+    state: "nm",
+  },
+  cod: {
+    city: "cody",
+    state: "wy",
+  },
+  cfa: {
+    city: "coffee point",
+    state: "ak",
+  },
+  kcc: {
+    city: "coffman cove",
+    state: "ak",
+  },
+  cdb: {
+    city: "cold bay",
+    state: "ak",
+  },
+  cll: {
+    city: "college station",
+    state: "tx",
+  },
+  cos: {
+    city: "colorado springs",
+    state: "co",
+  },
+  cou: {
+    city: "columbia",
+    state: "mo",
+  },
+  cae: {
+    city: "columbia",
+    state: "sc",
+  },
+  csg: {
+    city: "columbus",
+    state: "ga",
+  },
+  gtr: {
+    city: "columbus",
+    state: "ms",
+  },
+  cmh: {
+    city: "columbus",
+    state: "oh",
+  },
+  ccr: {
+    city: "concord",
+    state: "ca",
+  },
+  cnk: {
+    city: "concordia",
+    state: "ks",
+  },
+  qce: {
+    city: "copper mountain",
+    state: "co",
+  },
+  cdv: {
+    city: "cordova",
+    state: "ak",
+  },
+  crp: {
+    city: "corpus christi",
+    state: "tx",
+  },
+  cez: {
+    city: "cortez",
+    state: "co",
+  },
+  cga: {
+    city: "craig",
+    state: "ak",
+  },
+  cec: {
+    city: "crescent city",
+    state: "ca",
+  },
+  cko: {
+    city: "crooked creek",
+    state: "ak",
+  },
+  cuw: {
+    city: "cube cove",
+    state: "ak",
+  },
+  cbe: {
+    city: "cumberland",
+    state: "md",
+  },
+  dfw: {
+    city: "dallas",
+    state: "tx",
+  },
+  day: {
+    city: "dayton",
+    state: "oh",
+  },
+  dab: {
+    city: "daytona beach",
+    state: "fl",
+  },
+  dec: {
+    city: "decatur",
+    state: "il",
+  },
+  drg: {
+    city: "deering",
+    state: "ak",
+  },
+  djn: {
+    city: "delta junction",
+    state: "ak",
+  },
+  den: {
+    city: "denver",
+    state: "co",
+  },
+  qwm: {
+    city: "denver",
+    state: "co",
+  },
+  dsm: {
+    city: "des moines",
+    state: "ia",
+  },
+  dtw: {
+    city: "detroit",
+    state: "mi",
+  },
+  dvl: {
+    city: "devils lake",
+    state: "nd",
+  },
+  dik: {
+    city: "dickinson",
+    state: "nd",
+  },
+  dlg: {
+    city: "dillingham",
+    state: "ak",
+  },
+  ddc: {
+    city: "dodge city",
+    state: "ks",
+  },
+  dhn: {
+    city: "dothan",
+    state: "al",
+  },
+  duj: {
+    city: "dubois",
+    state: "pa",
+  },
+  dbq: {
+    city: "dubuque",
+    state: "ia",
+  },
+  dlh: {
+    city: "duluth",
+    state: "mn",
+  },
+  dro: {
+    city: "durango",
+    state: "co",
+  },
+  rdu: {
+    city: "durham",
+    state: "nc",
+  },
+  dut: {
+    city: "dutch harbor",
+    state: "ak",
+  },
+  eau: {
+    city: "eau claire",
+    state: "wi",
+  },
+  eda: {
+    city: "edna bay",
+    state: "ak",
+  },
+  eek: {
+    city: "eek",
+    state: "ak",
+  },
+  kku: {
+    city: "ekuk",
+    state: "ak",
+  },
+  kek: {
+    city: "ekwok",
+    state: "ak",
+  },
+  ipl: {
+    city: "el centro",
+    state: "ca",
+  },
+  eld: {
+    city: "el dorado",
+    state: "ar",
+  },
+  elp: {
+    city: "el paso",
+    state: "tx",
+  },
+  elv: {
+    city: "elfin cove",
+    state: "ak",
+  },
+  eli: {
+    city: "elim",
+    state: "ak",
+  },
+  eko: {
+    city: "elko",
+    state: "nv",
+  },
+  elm: {
+    city: "elmira",
+    state: "ny",
+  },
+  lyu: {
+    city: "ely",
+    state: "mn",
+  },
+  emk: {
+    city: "emmonak",
+    state: "ak",
+  },
+  wdg: {
+    city: "enid",
+    state: "ok",
+  },
+  eri: {
+    city: "erie",
+    state: "pa",
+  },
+  esc: {
+    city: "escanaba",
+    state: "mi",
+  },
+  eug: {
+    city: "eugene",
+    state: "or",
+  },
+  eue: {
+    city: "eureka",
+    state: "nv",
+  },
+  evv: {
+    city: "evansville",
+    state: "in",
+  },
+  fai: {
+    city: "fairbanks",
+    state: "ak",
+  },
+  far: {
+    city: "fargo",
+    state: "nd",
+  },
+  fyv: {
+    city: "fayetteville",
+    state: "ar",
+  },
+  xna: {
+    city: "fayetteville",
+    state: "ar",
+  },
+  fay: {
+    city: "fayetteville",
+    state: "nc",
+  },
+  flg: {
+    city: "flagstaff",
+    state: "az",
+  },
+  fnt: {
+    city: "flint",
+    state: "mi",
+  },
+  flo: {
+    city: "florence",
+    state: "sc",
+  },
+  fnl: {
+    city: "fort collins",
+    state: "co",
+  },
+  qwf: {
+    city: "loveland",
+    state: "co",
+  },
+  fod: {
+    city: "fort dodge",
+    state: "ia",
+  },
+  fll: {
+    city: "fort lauderdale",
+    state: "fl",
+  },
+  tbn: {
+    city: "fort leonard wood",
+    state: "mo",
+  },
+  rsw: {
+    city: "fort myers",
+    state: "fl",
+  },
+  fsm: {
+    city: "fort smith",
+    state: "ar",
+  },
+  fwa: {
+    city: "fort wayne",
+    state: "in",
+  },
+  fkl: {
+    city: "franklin",
+    state: "pa",
+  },
+  fat: {
+    city: "fresno",
+    state: "ca",
+  },
+  gnv: {
+    city: "gainesville",
+    state: "fl",
+  },
+  gup: {
+    city: "gallup",
+    state: "nm",
+  },
+  gck: {
+    city: "garden city",
+    state: "ks",
+  },
+  gyy: {
+    city: "gary",
+    state: "in",
+  },
+  gcc: {
+    city: "gillette",
+    state: "wy",
+  },
+  ggg: {
+    city: "gladewater",
+    state: "tx",
+  },
+  ggw: {
+    city: "glasgow",
+    state: "mt",
+  },
+  gdv: {
+    city: "glendive",
+    state: "mt",
+  },
+  glv: {
+    city: "golovin",
+    state: "ak",
+  },
+  gnu: {
+    city: "goodnews bay",
+    state: "ak",
+  },
+  jgc: {
+    city: "grand canyon",
+    state: "az",
+  },
+  gcn: {
+    city: "grand canyon",
+    state: "az",
+  },
+  gfk: {
+    city: "grand forks",
+    state: "nd",
+  },
+  gri: {
+    city: "grand island",
+    state: "ne",
+  },
+  gjt: {
+    city: "grand junction",
+    state: "co",
+  },
+  grr: {
+    city: "grand rapids",
+    state: "mi",
+  },
+  gpz: {
+    city: "grand rapids",
+    state: "mn",
+  },
+  kgx: {
+    city: "grayling",
+    state: "ak",
+  },
+  gtf: {
+    city: "great falls",
+    state: "mt",
+  },
+  grb: {
+    city: "green bay",
+    state: "wi",
+  },
+  gso: {
+    city: "greensboro",
+    state: "nc",
+  },
+  glh: {
+    city: "greenville",
+    state: "ms",
+  },
+  pgv: {
+    city: "greenville",
+    state: "nc",
+  },
+  gsp: {
+    city: "greenville",
+    state: "sc",
+  },
+  gon: {
+    city: "groton",
+    state: "ct",
+  },
+  guc: {
+    city: "gunnison",
+    state: "co",
+  },
+  gst: {
+    city: "gustavus",
+    state: "ak",
+  },
+  hgr: {
+    city: "hagerstown",
+    state: "md",
+  },
+  hns: {
+    city: "haines",
+    state: "ak",
+  },
+  phf: {
+    city: "hampton",
+    state: "va",
+  },
+  hnm: {
+    city: "hana",
+    state: "hi",
+  },
+  pak: {
+    city: "hanapepe",
+    state: "hi",
+  },
+  cmx: {
+    city: "hancock",
+    state: "mi",
+  },
+  hrl: {
+    city: "harlingen",
+    state: "tx",
+  },
+  mdt: {
+    city: "harrisburg",
+    state: "pa",
+  },
+  hro: {
+    city: "harrison",
+    state: "ar",
+  },
+  bdl: {
+    city: "hartford",
+    state: "ct",
+  },
+  hae: {
+    city: "havasupai",
+    state: "az",
+  },
+  hvr: {
+    city: "havre",
+    state: "mt",
+  },
+  hdn: {
+    city: "hayden",
+    state: "co",
+  },
+  hys: {
+    city: "hays",
+    state: "ks",
+  },
+  hkb: {
+    city: "healy lake",
+    state: "ak",
+  },
+  hln: {
+    city: "helena",
+    state: "mt",
+  },
+  hky: {
+    city: "hickory",
+    state: "nc",
+  },
+  ito: {
+    city: "hilo",
+    state: "hi",
+  },
+  hhh: {
+    city: "hilton head",
+    state: "sc",
+  },
+  hbb: {
+    city: "hobbs",
+    state: "nm",
+  },
+  hyl: {
+    city: "hollis",
+    state: "ak",
+  },
+  hcr: {
+    city: "holy cross",
+    state: "ak",
+  },
+  hom: {
+    city: "homer",
+    state: "ak",
+  },
+  hnl: {
+    city: "honolulu",
+    state: "hi",
+  },
+  mkk: {
+    city: "hoolehua",
+    state: "hi",
+  },
+  hnh: {
+    city: "hoonah",
+    state: "ak",
+  },
+  hpb: {
+    city: "hooper bay",
+    state: "ak",
+  },
+  hot: {
+    city: "hot springs",
+    state: "ar",
+  },
+  hou: {
+    city: "houston",
+    state: "tx",
+  },
+  iah: {
+    city: "houston",
+    state: "tx",
+  },
+  hus: {
+    city: "hughes",
+    state: "ak",
+  },
+  hsv: {
+    city: "huntsville",
+    state: "al",
+  },
+  hon: {
+    city: "huron",
+    state: "sd",
+  },
+  hsl: {
+    city: "huslia",
+    state: "ak",
+  },
+  hya: {
+    city: "hyannis",
+    state: "ma",
+  },
+  hyg: {
+    city: "hydaburg",
+    state: "ak",
+  },
+  ida: {
+    city: "idaho falls",
+    state: "id",
+  },
+  igg: {
+    city: "igiugig",
+    state: "ak",
+  },
+  ili: {
+    city: "iliamna",
+    state: "ak",
+  },
+  ind: {
+    city: "indianapolis",
+    state: "in",
+  },
+  inl: {
+    city: "international falls",
+    state: "mn",
+  },
+  iyk: {
+    city: "inyokern",
+    state: "ca",
+  },
+  imt: {
+    city: "iron mountain",
+    state: "mi",
+  },
+  iwd: {
+    city: "ironwood",
+    state: "mi",
+  },
+  isp: {
+    city: "islip",
+    state: "ny",
+  },
+  ith: {
+    city: "ithaca",
+    state: "ny",
+  },
+  jac: {
+    city: "jackson hole",
+    state: "wy",
+  },
+  jan: {
+    city: "jackson",
+    state: "ms",
+  },
+  mkl: {
+    city: "jackson",
+    state: "tn",
+  },
+  jax: {
+    city: "jacksonville",
+    state: "fl",
+  },
+  oaj: {
+    city: "jacksonville",
+    state: "nc",
+  },
+  jms: {
+    city: "jamestown",
+    state: "nd",
+  },
+  jhw: {
+    city: "jamestown",
+    state: "ny",
+  },
+  jvl: {
+    city: "janesville",
+    state: "wi",
+  },
+  jst: {
+    city: "johnstown",
+    state: "pa",
+  },
+  jbr: {
+    city: "jonesboro",
+    state: "ar",
+  },
+  jln: {
+    city: "joplin",
+    state: "mo",
+  },
+  jnu: {
+    city: "juneau",
+    state: "ak",
+  },
+  kae: {
+    city: "kake",
+    state: "ak",
+  },
+  knk: {
+    city: "kakhonak",
+    state: "ak",
+  },
+  azo: {
+    city: "kalamazoo",
+    state: "mi",
+  },
+  lup: {
+    city: "kalaupapa",
+    state: "hi",
+  },
+  klg: {
+    city: "kalskag",
+    state: "ak",
+  },
+  kal: {
+    city: "kaltag",
+    state: "ak",
+  },
+  mue: {
+    city: "kamuela",
+    state: "hi",
+  },
+  mci: {
+    city: "kansas city",
+    state: "mo",
+  },
+  jhm: {
+    city: "kapalua",
+    state: "hi",
+  },
+  kxa: {
+    city: "kasaan",
+    state: "ak",
+  },
+  kuk: {
+    city: "kasigluk",
+    state: "ak",
+  },
+  ear: {
+    city: "kearney",
+    state: "ne",
+  },
+  een: {
+    city: "keene",
+    state: "nh",
+  },
+  ena: {
+    city: "kenai",
+    state: "ak",
+  },
+  ktn: {
+    city: "ketchikan",
+    state: "ak",
+  },
+  eyw: {
+    city: "key west",
+    state: "fl",
+  },
+  qks: {
+    city: "keystone",
+    state: "co",
+  },
+  ian: {
+    city: "kiana",
+    state: "ak",
+  },
+  ile: {
+    city: "killeen",
+    state: "tx",
+  },
+  kvc: {
+    city: "king cove",
+    state: "ak",
+  },
+  akn: {
+    city: "king salmon",
+    state: "ak",
+  },
+  igm: {
+    city: "kingman",
+    state: "az",
+  },
+  kpn: {
+    city: "kipnuk",
+    state: "ak",
+  },
+  irk: {
+    city: "kirksville",
+    state: "mo",
+  },
+  kvl: {
+    city: "kivalina",
+    state: "ak",
+  },
+  lmt: {
+    city: "klamath falls",
+    state: "or",
+  },
+  klw: {
+    city: "klawock",
+    state: "ak",
+  },
+  tys: {
+    city: "knoxville",
+    state: "tn",
+  },
+  obu: {
+    city: "kobuk",
+    state: "ak",
+  },
+  adq: {
+    city: "kodiak",
+    state: "ak",
+  },
+  koa: {
+    city: "kona",
+    state: "hi",
+  },
+  kkh: {
+    city: "kongiganak",
+    state: "ak",
+  },
+  kot: {
+    city: "kotlik",
+    state: "ak",
+  },
+  otz: {
+    city: "kotzebue",
+    state: "ak",
+  },
+  kyu: {
+    city: "koyukuk",
+    state: "ak",
+  },
+  kwt: {
+    city: "kwethluk",
+    state: "ak",
+  },
+  kwk: {
+    city: "kwigillingok",
+    state: "ak",
+  },
+  lse: {
+    city: "la crosse",
+    state: "wi",
+  },
+  laf: {
+    city: "lafayette",
+    state: "in",
+  },
+  lft: {
+    city: "lafayette",
+    state: "la",
+  },
+  lch: {
+    city: "lake charles",
+    state: "la",
+  },
+  hii: {
+    city: "lake havasu city",
+    state: "az",
+  },
+  lma: {
+    city: "lake minchumina",
+    state: "ak",
+  },
+  lny: {
+    city: "lanai city",
+    state: "hi",
+  },
+  lns: {
+    city: "lancaster",
+    state: "pa",
+  },
+  lan: {
+    city: "lansing",
+    state: "mi",
+  },
+  lar: {
+    city: "laramie",
+    state: "wy",
+  },
+  lrd: {
+    city: "laredo",
+    state: "tx",
+  },
+  las: {
+    city: "las vegas",
+    state: "nv",
+  },
+  lbe: {
+    city: "latrobe",
+    state: "pa",
+  },
+  pib: {
+    city: "laurel",
+    state: "ms",
+  },
+  law: {
+    city: "lawton",
+    state: "ok",
+  },
+  leb: {
+    city: "lebanon",
+    state: "nh",
+  },
+  kll: {
+    city: "levelock",
+    state: "ak",
+  },
+  lwb: {
+    city: "lewisburg",
+    state: "wv",
+  },
+  lws: {
+    city: "lewiston",
+    state: "id",
+  },
+  lwt: {
+    city: "lewistown",
+    state: "mt",
+  },
+  lex: {
+    city: "lexington",
+    state: "ky",
+  },
+  lbl: {
+    city: "liberal",
+    state: "ks",
+  },
+  lih: {
+    city: "lihue",
+    state: "hi",
+  },
+  lnk: {
+    city: "lincoln",
+    state: "ne",
+  },
+  lit: {
+    city: "little rock",
+    state: "ar",
+  },
+  lgb: {
+    city: "long beach",
+    state: "ca",
+  },
+  lps: {
+    city: "lopez island",
+    state: "wa",
+  },
+  lax: {
+    city: "los angeles",
+    state: "ca",
+  },
+  sdf: {
+    city: "louisville",
+    state: "ky",
+  },
+  lbb: {
+    city: "lubbock",
+    state: "tx",
+  },
+  mcn: {
+    city: "macon",
+    state: "ga",
+  },
+  msn: {
+    city: "madison",
+    state: "wi",
+  },
+  mdj: {
+    city: "madras",
+    state: "or",
+  },
+  mht: {
+    city: "manchester",
+    state: "nh",
+  },
+  mhk: {
+    city: "manhattan",
+    state: "ks",
+  },
+  mbl: {
+    city: "manistee",
+    state: "mi",
+  },
+  mkt: {
+    city: "mankato",
+    state: "mn",
+  },
+  mly: {
+    city: "manley hot springs",
+    state: "ak",
+  },
+  kmo: {
+    city: "manokotak",
+    state: "ak",
+  },
+  pkb: {
+    city: "marietta",
+    state: "oh",
+  },
+  mwa: {
+    city: "marion",
+    state: "il",
+  },
+  mqt: {
+    city: "marquette",
+    state: "mi",
+  },
+  mll: {
+    city: "marshall",
+    state: "ak",
+  },
+  mvy: {
+    city: "marthas vineyard",
+    state: "ma",
+  },
+  aoo: {
+    city: "martinsburg",
+    state: "pa",
+  },
+  mcw: {
+    city: "mason city",
+    state: "ia",
+  },
+  mss: {
+    city: "massena",
+    state: "ny",
+  },
+  ogg: {
+    city: "maui",
+    state: "hi",
+  },
+  mck: {
+    city: "mccook",
+    state: "ne",
+  },
+  mcg: {
+    city: "mcgrath",
+    state: "ak",
+  },
+  mfr: {
+    city: "medford",
+    state: "or",
+  },
+  myu: {
+    city: "mekoryuk",
+    state: "ak",
+  },
+  mlb: {
+    city: "melbourne",
+    state: "fl",
+  },
+  mem: {
+    city: "memphis",
+    state: "tn",
+  },
+  mce: {
+    city: "merced",
+    state: "ca",
+  },
+  mei: {
+    city: "meridian",
+    state: "ms",
+  },
+  mtm: {
+    city: "metlakatla",
+    state: "ak",
+  },
+  wmk: {
+    city: "meyers chuck",
+    state: "ak",
+  },
+  mia: {
+    city: "miami",
+    state: "fl",
+  },
+  mpb: {
+    city: "miami",
+    state: "fl",
+  },
+  maf: {
+    city: "midland",
+    state: "tx",
+  },
+  mls: {
+    city: "miles city",
+    state: "mt",
+  },
+  mke: {
+    city: "milwaukee",
+    state: "wi",
+  },
+  msp: {
+    city: "minneapolis",
+    state: "mn",
+  },
+  mot: {
+    city: "minot",
+    state: "nd",
+  },
+  mnt: {
+    city: "minto",
+    state: "ak",
+  },
+  mfe: {
+    city: "mission",
+    state: "tx",
+  },
+  mso: {
+    city: "missoula",
+    state: "mt",
+  },
+  cny: {
+    city: "moab",
+    state: "ut",
+  },
+  mob: {
+    city: "mobile",
+    state: "al",
+  },
+  mod: {
+    city: "modesto",
+    state: "ca",
+  },
+  mli: {
+    city: "moline",
+    state: "il",
+  },
+  mlu: {
+    city: "monroe",
+    state: "la",
+  },
+  mgm: {
+    city: "montgomery",
+    state: "al",
+  },
+  mtj: {
+    city: "montrose",
+    state: "co",
+  },
+  mgw: {
+    city: "morgantown",
+    state: "wv",
+  },
+  mwh: {
+    city: "moses lake",
+    state: "wa",
+  },
+  wmh: {
+    city: "mountain home",
+    state: "ar",
+  },
+  mou: {
+    city: "mountain village",
+    state: "ak",
+  },
+  mkg: {
+    city: "muskegon",
+    state: "mi",
+  },
+  myr: {
+    city: "myrtle beach",
+    state: "sc",
+  },
+  ack: {
+    city: "nantucket",
+    state: "ma",
+  },
+  wna: {
+    city: "napakiak",
+    state: "ak",
+  },
+  pka: {
+    city: "napaskiak",
+    state: "ak",
+  },
+  apf: {
+    city: "naples",
+    state: "fl",
+  },
+  bna: {
+    city: "nashville",
+    state: "tn",
+  },
+  nki: {
+    city: "naukiti",
+    state: "ak",
+  },
+  nlg: {
+    city: "nelson lagoon",
+    state: "ak",
+  },
+  ncn: {
+    city: "new chenega",
+    state: "ak",
+  },
+  hvn: {
+    city: "new haven",
+    state: "ct",
+  },
+  kgk: {
+    city: "new koliganek",
+    state: "ak",
+  },
+  msy: {
+    city: "new orleans",
+    state: "la",
+  },
+  knw: {
+    city: "new stuyahok",
+    state: "ak",
+  },
+  jfk: {
+    city: "new york",
+    state: "ny",
+  },
+  lga: {
+    city: "new york",
+    state: "ny",
+  },
+  ewr: {
+    city: "newark",
+    state: "nj",
+  },
+  wwt: {
+    city: "newtok",
+    state: "ak",
+  },
+  nme: {
+    city: "nightmute",
+    state: "ak",
+  },
+  nib: {
+    city: "nikolai",
+    state: "ak",
+  },
+  iko: {
+    city: "nikolski",
+    state: "ak",
+  },
+  wtk: {
+    city: "noatak",
+    state: "ak",
+  },
+  ome: {
+    city: "nome",
+    state: "ak",
+  },
+  nnl: {
+    city: "nondalton",
+    state: "ak",
+  },
+  orv: {
+    city: "noorvik",
+    state: "ak",
+  },
+  ofk: {
+    city: "norfolk",
+    state: "ne",
+  },
+  orf: {
+    city: "norfolk",
+    state: "va",
+  },
+  oth: {
+    city: "north bend",
+    state: "or",
+  },
+  lbf: {
+    city: "north platte",
+    state: "ne",
+  },
+  ort: {
+    city: "northway",
+    state: "ak",
+  },
+  nui: {
+    city: "nuiqsut",
+    state: "ak",
+  },
+  nul: {
+    city: "nulato",
+    state: "ak",
+  },
+  nup: {
+    city: "nunapitchuk",
+    state: "ak",
+  },
+  oak: {
+    city: "oakland",
+    state: "ca",
+  },
+  ogs: {
+    city: "ogdensburg",
+    state: "ny",
+  },
+  okc: {
+    city: "oklahoma city",
+    state: "ok",
+  },
+  oma: {
+    city: "omaha",
+    state: "ne",
+  },
+  ont: {
+    city: "ontario",
+    state: "ca",
+  },
+  orl: {
+    city: "orlando",
+    state: "fl",
+  },
+  mco: {
+    city: "orlando",
+    state: "fl",
+  },
+  osh: {
+    city: "oshkosh",
+    state: "wi",
+  },
+  otm: {
+    city: "ottumwa",
+    state: "ia",
+  },
+  owb: {
+    city: "owensboro",
+    state: "ky",
+  },
+  pah: {
+    city: "paducah",
+    state: "ky",
+  },
+  pga: {
+    city: "page",
+    state: "az",
+  },
+  psp: {
+    city: "palm springs",
+    state: "ca",
+  },
+  pfn: {
+    city: "panama city",
+    state: "fl",
+  },
+  psc: {
+    city: "pasco",
+    state: "wa",
+  },
+  pdb: {
+    city: "pedro bay",
+    state: "ak",
+  },
+  pec: {
+    city: "pelican",
+    state: "ak",
+  },
+  pln: {
+    city: "pellston",
+    state: "mi",
+  },
+  pdt: {
+    city: "pendleton",
+    state: "or",
+  },
+  pns: {
+    city: "pensacola",
+    state: "fl",
+  },
+  pia: {
+    city: "peoria",
+    state: "il",
+  },
+  kpv: {
+    city: "perryville",
+    state: "ak",
+  },
+  psg: {
+    city: "petersburg",
+    state: "ak",
+  },
+  phl: {
+    city: "philadelphia",
+    state: "pa",
+  },
+  ttn: {
+    city: "philadelphia",
+    state: "pa",
+  },
+  phx: {
+    city: "phoenix",
+    state: "az",
+  },
+  pir: {
+    city: "pierre",
+    state: "sd",
+  },
+  ugb: {
+    city: "pilot point",
+    state: "ak",
+  },
+  pip: {
+    city: "pilot point",
+    state: "ak",
+  },
+  pqs: {
+    city: "pilot station",
+    state: "ak",
+  },
+  pit: {
+    city: "pittsburgh",
+    state: "pa",
+  },
+  ptu: {
+    city: "platinum",
+    state: "ak",
+  },
+  plb: {
+    city: "plattsburgh",
+    state: "ny",
+  },
+  pih: {
+    city: "pocatello",
+    state: "id",
+  },
+  kpb: {
+    city: "point baker",
+    state: "ak",
+  },
+  pho: {
+    city: "point hope",
+    state: "ak",
+  },
+  piz: {
+    city: "point lay",
+    state: "ak",
+  },
+  pnc: {
+    city: "ponca city",
+    state: "ok",
+  },
+  pta: {
+    city: "port alsworth",
+    state: "ak",
+  },
+  clm: {
+    city: "port angeles",
+    state: "wa",
+  },
+  kpc: {
+    city: "port clarence",
+    state: "ak",
+  },
+  pth: {
+    city: "port heiden",
+    state: "ak",
+  },
+  pml: {
+    city: "port moller",
+    state: "ak",
+  },
+  ppv: {
+    city: "port protection",
+    state: "ak",
+  },
+  pca: {
+    city: "portage creek",
+    state: "ak",
+  },
+  pwm: {
+    city: "portland",
+    state: "me",
+  },
+  pdx: {
+    city: "portland",
+    state: "or",
+  },
+  psm: {
+    city: "portsmouth",
+    state: "nh",
+  },
+  pou: {
+    city: "poughkeepsie",
+    state: "ny",
+  },
+  prc: {
+    city: "prescott",
+    state: "az",
+  },
+  pqi: {
+    city: "presque isle",
+    state: "me",
+  },
+  pvd: {
+    city: "providence",
+    state: "ri",
+  },
+  pvc: {
+    city: "provincetown",
+    state: "ma",
+  },
+  scc: {
+    city: "prudhoe bay/deadhorse",
+    state: "ak",
+  },
+  pub: {
+    city: "pueblo",
+    state: "co",
+  },
+  puw: {
+    city: "pullman",
+    state: "wa",
+  },
+  uin: {
+    city: "quincy",
+    state: "il",
+  },
+  kwn: {
+    city: "quinhagak",
+    state: "ak",
+  },
+  rmp: {
+    city: "rampart",
+    state: "ak",
+  },
+  rap: {
+    city: "rapid city",
+    state: "sd",
+  },
+  rdg: {
+    city: "reading",
+    state: "pa",
+  },
+  rdv: {
+    city: "red devil",
+    state: "ak",
+  },
+  rdd: {
+    city: "redding",
+    state: "ca",
+  },
+  rdm: {
+    city: "redmond",
+    state: "or",
+  },
+  rno: {
+    city: "reno",
+    state: "nv",
+  },
+  rhi: {
+    city: "rhinelander",
+    state: "wi",
+  },
+  ric: {
+    city: "richmond",
+    state: "va",
+  },
+  riw: {
+    city: "riverton",
+    state: "wy",
+  },
+  roa: {
+    city: "roanoke",
+    state: "va",
+  },
+  rce: {
+    city: "roche harbor",
+    state: "wa",
+  },
+  rst: {
+    city: "rochester",
+    state: "mn",
+  },
+  roc: {
+    city: "rochester",
+    state: "ny",
+  },
+  rks: {
+    city: "rock springs",
+    state: "wy",
+  },
+  zrf: {
+    city: "rockford",
+    state: "il",
+  },
+  zrk: {
+    city: "rockford",
+    state: "il",
+  },
+  rkd: {
+    city: "rockland",
+    state: "me",
+  },
+  rsj: {
+    city: "rosario",
+    state: "wa",
+  },
+  row: {
+    city: "roswell",
+    state: "nm",
+  },
+  rby: {
+    city: "ruby",
+    state: "ak",
+  },
+  rsh: {
+    city: "russian mission",
+    state: "ak",
+  },
+  rut: {
+    city: "rutland",
+    state: "vt",
+  },
+  smf: {
+    city: "sacramento",
+    state: "ca",
+  },
+  stc: {
+    city: "saint cloud",
+    state: "mn",
+  },
+  stg: {
+    city: "saint george island",
+    state: "ak",
+  },
+  sgu: {
+    city: "saint george",
+    state: "ut",
+  },
+  stl: {
+    city: "saint louis",
+    state: "mo",
+  },
+  ksm: {
+    city: "saint marys",
+    state: "ak",
+  },
+  smk: {
+    city: "saint michael",
+    state: "ak",
+  },
+  snp: {
+    city: "saint paul island",
+    state: "ak",
+  },
+  sle: {
+    city: "salem",
+    state: "or",
+  },
+  sln: {
+    city: "salina",
+    state: "ks",
+  },
+  sby: {
+    city: "salisbury-ocean city",
+    state: "md",
+  },
+  slc: {
+    city: "salt lake city",
+    state: "ut",
+  },
+  sjt: {
+    city: "san angelo",
+    state: "tx",
+  },
+  sat: {
+    city: "san antonio",
+    state: "tx",
+  },
+  san: {
+    city: "san diego",
+    state: "ca",
+  },
+  sfo: {
+    city: "san francisco",
+    state: "ca",
+  },
+  sjc: {
+    city: "san jose",
+    state: "ca",
+  },
+  sbp: {
+    city: "san luis obispo",
+    state: "ca",
+  },
+  sdp: {
+    city: "sand point",
+    state: "ak",
+  },
+  sna: {
+    city: "santa ana",
+    state: "ca",
+  },
+  sba: {
+    city: "santa barbara",
+    state: "ca",
+  },
+  saf: {
+    city: "santa fe",
+    state: "nm",
+  },
+  smx: {
+    city: "santa maria",
+    state: "ca",
+  },
+  sts: {
+    city: "santa rosa",
+    state: "ca",
+  },
+  slk: {
+    city: "saranac lake",
+    state: "ny",
+  },
+  srq: {
+    city: "sarasota",
+    state: "fl",
+  },
+  ciu: {
+    city: "sault ste marie",
+    state: "mi",
+  },
+  sav: {
+    city: "savannah",
+    state: "ga",
+  },
+  sva: {
+    city: "savoonga",
+    state: "ak",
+  },
+  scm: {
+    city: "scammon bay",
+    state: "ak",
+  },
+  bff: {
+    city: "scottsbluff",
+    state: "ne",
+  },
+  sdl: {
+    city: "scottsdale",
+    state: "az",
+  },
+  avp: {
+    city: "scranton",
+    state: "pa",
+  },
+  lke: {
+    city: "seattle",
+    state: "wa",
+  },
+  sea: {
+    city: "seattle",
+    state: "wa",
+  },
+  wlk: {
+    city: "selawik",
+    state: "ak",
+  },
+  swd: {
+    city: "seward",
+    state: "ak",
+  },
+  shx: {
+    city: "shageluk",
+    state: "ak",
+  },
+  skk: {
+    city: "shaktoolik",
+    state: "ak",
+  },
+  msl: {
+    city: "sheffield",
+    state: "al",
+  },
+  sxp: {
+    city: "sheldon point",
+    state: "ak",
+  },
+  shr: {
+    city: "sheridan",
+    state: "wy",
+  },
+  shh: {
+    city: "shishmaref",
+    state: "ak",
+  },
+  shv: {
+    city: "shreveport",
+    state: "la",
+  },
+  shg: {
+    city: "shungnak",
+    state: "ak",
+  },
+  svc: {
+    city: "silver city",
+    state: "nm",
+  },
+  sux: {
+    city: "sioux city",
+    state: "ia",
+  },
+  fsd: {
+    city: "sioux falls",
+    state: "sd",
+  },
+  sit: {
+    city: "sitka",
+    state: "ak",
+  },
+  sgy: {
+    city: "skagway",
+    state: "ak",
+  },
+  slq: {
+    city: "sleetmore",
+    state: "ak",
+  },
+  sbn: {
+    city: "south bend",
+    state: "in",
+  },
+  wsn: {
+    city: "south naknek",
+    state: "ak",
+  },
+  sop: {
+    city: "southern pines",
+    state: "nc",
+  },
+  geg: {
+    city: "spokane",
+    state: "wa",
+  },
+  spi: {
+    city: "springfield",
+    state: "il",
+  },
+  sgf: {
+    city: "springfield",
+    state: "mo",
+  },
+  sce: {
+    city: "state college",
+    state: "pa",
+  },
+  shd: {
+    city: "staunton",
+    state: "va",
+  },
+  sbs: {
+    city: "steamboat springs",
+    state: "co",
+  },
+  wbb: {
+    city: "stebbins",
+    state: "ak",
+  },
+  cwa: {
+    city: "wausau",
+    state: "wi",
+  },
+  svs: {
+    city: "stevens village",
+    state: "ak",
+  },
+  swf: {
+    city: "newburgh",
+    state: "ny",
+  },
+  sck: {
+    city: "stockton",
+    state: "ca",
+  },
+  srv: {
+    city: "stony river",
+    state: "ak",
+  },
+  sun: {
+    city: "sun valley",
+    state: "id",
+  },
+  syr: {
+    city: "syracuse",
+    state: "ny",
+  },
+  tct: {
+    city: "takotna",
+    state: "ak",
+  },
+  tka: {
+    city: "talkeetna",
+    state: "ak",
+  },
+  tlh: {
+    city: "tallahassee",
+    state: "fl",
+  },
+  tpa: {
+    city: "tampa",
+    state: "fl",
+  },
+  tal: {
+    city: "tanana",
+    state: "ak",
+  },
+  tsm: {
+    city: "taos",
+    state: "nm",
+  },
+  tek: {
+    city: "tatitlek",
+    state: "ak",
+  },
+  kts: {
+    city: "teller mission",
+    state: "ak",
+  },
+  tex: {
+    city: "telluride",
+    state: "co",
+  },
+  tke: {
+    city: "tenakee springs",
+    state: "ak",
+  },
+  huf: {
+    city: "terre haute",
+    state: "in",
+  },
+  teh: {
+    city: "tetlin",
+    state: "ak",
+  },
+  txk: {
+    city: "texarkana",
+    state: "ar",
+  },
+  tvf: {
+    city: "thief river falls",
+    state: "mn",
+  },
+  ktb: {
+    city: "thorne bay",
+    state: "ak",
+  },
+  tnc: {
+    city: "tin city",
+    state: "ak",
+  },
+  tog: {
+    city: "togiak village",
+    state: "ak",
+  },
+  tkj: {
+    city: "tok",
+    state: "ak",
+  },
+  ook: {
+    city: "toksook bay",
+    state: "ak",
+  },
+  tol: {
+    city: "toledo",
+    state: "oh",
+  },
+  foe: {
+    city: "topeka",
+    state: "ks",
+  },
+  tvc: {
+    city: "traverse city",
+    state: "mi",
+  },
+  tus: {
+    city: "tucson",
+    state: "az",
+  },
+  tul: {
+    city: "tulsa",
+    state: "ok",
+  },
+  tlt: {
+    city: "tuluksak",
+    state: "ak",
+  },
+  wtl: {
+    city: "tuntutuliak",
+    state: "ak",
+  },
+  tnk: {
+    city: "tununak",
+    state: "ak",
+  },
+  tup: {
+    city: "tupelo",
+    state: "ms",
+  },
+  tcl: {
+    city: "tuscaloosa",
+    state: "al",
+  },
+  twf: {
+    city: "twin falls",
+    state: "id",
+  },
+  twa: {
+    city: "twin hills",
+    state: "ak",
+  },
+  tyr: {
+    city: "tyler",
+    state: "tx",
+  },
+  unk: {
+    city: "unalakleet",
+    state: "ak",
+  },
+  uca: {
+    city: "utica",
+    state: "ny",
+  },
+  uto: {
+    city: "utopia creek",
+    state: "ak",
+  },
+  ege: {
+    city: "vail",
+    state: "co",
+  },
+  qbf: {
+    city: "vail",
+    state: "co",
+  },
+  vdz: {
+    city: "valdez",
+    state: "ak",
+  },
+  vld: {
+    city: "valdosta",
+    state: "ga",
+  },
+  vps: {
+    city: "valparaiso",
+    state: "fl",
+  },
+  vee: {
+    city: "venetie",
+    state: "ak",
+  },
+  oxr: {
+    city: "ventura",
+    state: "ca",
+  },
+  vel: {
+    city: "vernal",
+    state: "ut",
+  },
+  vct: {
+    city: "victoria",
+    state: "tx",
+  },
+  vis: {
+    city: "visalia",
+    state: "ca",
+  },
+  act: {
+    city: "waco",
+    state: "tx",
+  },
+  ain: {
+    city: "wainwright",
+    state: "ak",
+  },
+  waa: {
+    city: "wales",
+    state: "ak",
+  },
+  alw: {
+    city: "walla walla",
+    state: "wa",
+  },
+  iad: {
+    city: "washington dc",
+  },
+  dca: {
+    city: "washington dc",
+  },
+  kwf: {
+    city: "waterfall",
+    state: "ak",
+  },
+  alo: {
+    city: "waterloo",
+    state: "ia",
+  },
+  art: {
+    city: "watertown",
+    state: "ny",
+  },
+  aty: {
+    city: "watertown",
+    state: "sd",
+  },
+  eat: {
+    city: "wenatchee",
+    state: "wa",
+  },
+  pbi: {
+    city: "west palm beach",
+    state: "fl",
+  },
+  wys: {
+    city: "west yellowstone",
+    state: "mt",
+  },
+  hpn: {
+    city: "westchester county",
+    state: "ny",
+  },
+  wst: {
+    city: "westerly",
+    state: "ri",
+  },
+  wsx: {
+    city: "westsound",
+    state: "wa",
+  },
+  wwp: {
+    city: "whale pass",
+    state: "ak",
+  },
+  wmo: {
+    city: "white mountain",
+    state: "ak",
+  },
+  sps: {
+    city: "wichita falls",
+    state: "tx",
+  },
+  ict: {
+    city: "wichita",
+    state: "ks",
+  },
+  ipt: {
+    city: "williamsport",
+    state: "pa",
+  },
+  isn: {
+    city: "williston",
+    state: "nd",
+  },
+  ilm: {
+    city: "wilmington",
+    state: "nc",
+  },
+  orh: {
+    city: "worcester",
+    state: "ma",
+  },
+  wrl: {
+    city: "worland",
+    state: "wy",
+  },
+  wrg: {
+    city: "wrangell",
+    state: "ak",
+  },
+  ykm: {
+    city: "yakima",
+    state: "wa",
+  },
+  yak: {
+    city: "yakutat",
+    state: "ak",
+  },
+  yng: {
+    city: "youngstown",
+    state: "oh",
+  },
+  yum: {
+    city: "yuma",
+    state: "az",
+  },
+};
 
-export {USA}
+export { USA_code };
