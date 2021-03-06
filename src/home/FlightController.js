@@ -14,6 +14,7 @@ const FCDiv = styled.div`
     align-items: center;
   }
 `;
+
 const DestinationContainer = styled.div`
   display: flex;
   width: 100%;
