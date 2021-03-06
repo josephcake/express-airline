@@ -51,6 +51,9 @@ const handleChange = (e) =>{
   if(USA_cities[code]){
     console.log(USA_cities[code])
   }
+  if(USA_code[code]){
+    console.log(USA_code[code])
+  }
 }
 
 const FlightController = () =>{
